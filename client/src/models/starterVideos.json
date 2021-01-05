@@ -1,0 +1,98 @@
+[
+    {
+        "thumbnail":"./vidImage1.png",
+        "videoName": "Mindfulness: What is it? BBC News",
+        "author": "BBC News", 
+        "durationInMins": 7.53,
+        "description": "An introduction to mindfulness and how it can help with managing stress, mental illness and chronic pain",
+        "videoLink":"https://www.youtube.com/watch?v=Se971VQf8w8"
+    },
+
+    {
+        "thumbnail":"./vidImage2.png",
+        "videoName": "5 Minute Meditation You Can Do Anywhere",
+        "author": "Goodful", 
+        "durationInMins": 5.16,
+        "description": "In just 5 minutes you can reset your day in a positive way.",
+        "videoLink":"https://www.youtube.com/watch?v=inpok4MKVLM"
+    },
+
+    {   
+        "thumbnail":"", 
+        "videoName": "7 Min Meditation to Start Your Day",
+        "author":  "Yoga With Adriene", 
+        "durationInMins": 7.20,
+        "description": "Use this 7 Min Meditation to set a positive intention for the course of your day",
+        "videoLink": "https://www.youtube.com/watch?v=k0PSUDvLi8E"
+    },
+
+    { 
+        "thumbnail":"", 
+        "videoName": "10 Minute Meditation For Stress",
+        "author":  "Goodful", 
+        "durationInMins": 10.17,
+        "description": "If you are feeling stressed or overwhelmed, listen to this guided meditation to re-center yourself.",
+        "videoLink": "https://www.youtube.com/watch?v=z6X5oEIg6Ak"
+    },
+
+    {  
+        "thumbnail":"", 
+        "videoName": "10 Minute Meditation For Anxiety",
+        "author": "Goodful", 
+        "durationInMins": 10.20,
+        "description": "Take a moment and let this guided meditation relieve your anxiety",
+        "videoLink": "https://www.youtube.com/watch?v=O-6f5wQXSu8"    
+    },
+
+    {   
+        "thumbnail":"",
+        "videoName": "Meditation for Anxiety",
+        "author":  "Yoga With Adriene", 
+        "durationInMins": 14.13,
+        "description": "15 Minute Meditation For Anxiety guides you through a simple at home meditation to provide relief from anxiety, stress, and energetic imbalance.",
+        "videoLink": "https://www.youtube.com/watch?v=4pLUleLdwY4"
+    }, 
+
+    {   
+        "thumbnail":"", 
+        "videoName": "Meditation For Mental Balance and Grounding",
+        "author":  "Yoga With Adriene", 
+        "durationInMins": 17.12,
+        "description": "This 17 minute guided meditation welcomes balance and clarity to your mental and emotional self. Practice regularly to connect brain to body for mental health and optimal physical wellbeing.",
+        "videoLink": "https://www.youtube.com/watch?v=x0nZ1ZLephQ&t=2s"
+    }, 
+
+    {   "thumbnail":"", 
+        "videoName": "10-Minute Meditation For Sleep",
+        "author":  "Goodful", 
+        "durationInMins": 10.10,
+        "description": "If you are feeling restless, listen to this guided meditation to ease your mind and body into falling asleep.",
+        "videoLink": "https://www.youtube.com/watch?v=aEqlQvczMJQ"
+    }, 
+
+    {   
+        "thumbnail":"",
+        "videoName": "10 Min Guided Meditation For Sleep & Relaxation",
+        "author":  "Boho Beautiful", 
+        "durationInMins": 12.20,
+        "description": "Relax and fall asleep fast with this 10 minute guided meditation for sleep.",
+        "videoLink": "https://www.youtube.com/watch?v=bG3AcN-XOrw"
+    }
+
+]
+
+
+    
+    
+
+     
+    
+    
+
+
+    
+    
+    
+
+
+

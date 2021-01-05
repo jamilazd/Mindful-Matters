@@ -1,0 +1,32 @@
+body{
+    width: 100%; 
+}
+
+#nav{
+    background-color: #F7F9F9;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color:#024C46;
+}
+
+.nav-link {
+    color:  #698484; 
+    font-family: 'Noto Serif', serif;
+}
+
+.nav-link:hover {
+    color: #B0896C; 
+    border-style: solid;
+    border-width: 0.2px;
+    border-color:#B0896C;
+}
+
+#brandName {
+    font-size: 23px; 
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    color: #C1CFCF; 
+    margin-right: 600px; 
+    -webkit-text-stroke: 0.6px #024C46;
+}
+

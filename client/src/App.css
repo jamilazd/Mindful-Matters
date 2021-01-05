@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    width: 100%;
+    height: 100%; 
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background:#024C46;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #B0896C;
+}
