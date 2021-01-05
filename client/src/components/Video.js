@@ -7,10 +7,13 @@ const Video = (props) => {
   return(
     <div id="vidContainer" className="container-fluid">
       <div className="row">
+        <div className="col-sm-3">
+          <img className="img-fluid" src={thumbnail} alt="video image"/>
+        </div>
         <div className="col-sm-8">
           <u><h2 id="title">{videoName}</h2></u>
           <p>{description}</p>
-          <img className="" src={thumbnail} alt="video thumbnail"/>
+          <button>Add Video</button>
         </div>
       </div>
     </div>
