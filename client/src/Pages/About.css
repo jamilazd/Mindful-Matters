@@ -61,7 +61,6 @@ u {
     font-size: 18px;  
     line-height: 1.6em; 
     padding: 5px 350px 10px 20px; 
-
 }
 
 #MMLogo{
@@ -69,8 +68,7 @@ u {
     float: right; 
     position: relative;
     left: 340px; 
-    bottom: 70px; 
-    
+    bottom: 70px;
 }
 
 #photos { 
