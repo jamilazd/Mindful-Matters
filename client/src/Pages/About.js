@@ -27,7 +27,6 @@ const About = () => {
                   You can also drop by anytime to access thoughtfully curated mindfulness videos.
                   <img className="img-fluid" id="MMLogo" src={MMLogo} alt="Brand Logo" />
                </p> 
-
             </div>
             <div className="col" id="photos">
                 <img className="img-fluid" id="woman1" src={med} alt="meditating woman" />
