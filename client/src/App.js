@@ -13,6 +13,9 @@ const App = (Props) => {
   
   const [ videos, setVideo ] = useState(starterVideos); 
   
+  //write add and remove button functions here
+  
+
   return (
     <BrowserRouter>
       <Header />
