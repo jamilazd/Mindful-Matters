@@ -22,4 +22,18 @@ const Livefeed = () => {
 
 export default Livefeed; 
 
+/*  
+Have a video at the top to the right, explaining what Mindfulness is. 
 
+{
+        "thumbnail":"./vidImage1.png",
+        "videoName": "Mindfulness: What is it? BBC News",
+        "author": "BBC News", 
+        "durationInMins": 7.53,
+        "description": "An introduction to mindfulness and how it can help with managing stress, mental illness and chronic pain",
+        "videoLink":"https://www.youtube.com/watch?v=Se971VQf8w8"
+    },
+
+
+
+*/ 
