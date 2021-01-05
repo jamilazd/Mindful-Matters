@@ -3,13 +3,16 @@ import './Video.css';
 
 
 const Video = (props) => {
-  const { thumbnail, videoName, author, description, videoLink } = props.video; 
+  const { thumbnail, videoName, description } = props.video; 
   return(
-    <div className="container-fluid">
-      <img className="img-fluid" src={thumbnail} alt="video thumbnail"/>
-      <h3>{videoName} {author}</h3>
-      <p>{description}</p>
-      <p>{videoLink}</p>
+    <div id="vidContainer" className="container-fluid">
+      <div className="row">
+        <div className="col-sm-8">
+          <u><h2 id="title">{videoName}</h2></u>
+          <p>{description}</p>
+          <img className="" src={thumbnail} alt="video thumbnail"/>
+        </div>
+      </div>
     </div>
   ); 
 }
@@ -27,6 +30,25 @@ of Mindfulness videos you can watch now or add to your playlist for later. */
       Mindfulness focuses on being aware of your feelings in the moment, without interruption or judgement. 
     </p>
   </div>
+
+   <div className="container-fluid">
+      <div className="row">
+        <div className="col">
+          <div className="card">
+            <img className="card-img-top" src={thumbnail} alt="video thumbnail"/>
+            <div className="card-body">
+              <h3 className="card-title">{videoName} {author}</h3>
+              <p className="card-text">{description}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
 
 
 */

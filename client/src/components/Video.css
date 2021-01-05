@@ -16,3 +16,35 @@
     padding-right: 300px; 
 
 }
+
+#vidContainer{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.col-sm-8{
+    margin-top: 20px;  
+    border-style: solid;
+    border-width: 2px;
+    border-color: #024C46;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000; 
+    font-size: 16px; 
+    line-height: 1.5em; 
+    text-align: center;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    margin: auto; 
+    border-bottom: 1px solid rgb (209, 209, 209); 
+    box-shadow: 2px 5px 6px #888888; 
+
+}
+
+#title{
+    font-size: 28px; 
+    font-family: 'Noto Serif', serif; 
+    line-height: 1.3em; 
+    text-align: center;
+    padding-bottom: 2px; 
+    color: #024C46; 
+}
