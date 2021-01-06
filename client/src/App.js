@@ -1,6 +1,7 @@
 import React, { useState } from 'react'; 
 import { BrowserRouter, Route, } from 'react-router-dom';
 import Header from './components/Header'; 
+import Footer from './components/Footer'; 
 import Livefeed from './components/Livefeed';
 import starterVideos from './models/starterVideos.json'; 
 import Video from './components/Video'; 
@@ -13,15 +14,13 @@ const App = (Props) => {
   
   const [ videos, setVideo ] = useState(starterVideos); 
   
-  //write add and remove button functions here
-  
-
   return (
     <BrowserRouter>
       <Header />
         <Route exact path="/" render={() => (
           <>
            <Livefeed />
+           <Footer />
           </>
         )} />
         <Route exact path="/Video" render={() => (
@@ -37,6 +36,7 @@ const App = (Props) => {
         <Route exact path="/About" render={() => (
           <>
             <About/>
+            <Footer />
           </>
         )} />
    </BrowserRouter>
