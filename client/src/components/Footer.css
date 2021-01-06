@@ -1,0 +1,20 @@
+.trustLinks{
+    background-color: #C1CFCF;
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+    font-family: 'Noto Serif', serif;
+    font-size: 22px; 
+    color: #024C46;
+    text-align: center; 
+    border-style: solid;
+    border-width: 0.2px;
+    background-image: url(leaves.png); 
+}
+
+
+#bottomFooter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px; 
+    background-color: #F0F1F1;
+    
+}
