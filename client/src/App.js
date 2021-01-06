@@ -5,7 +5,7 @@ import Livefeed from './components/Livefeed';
 import starterVideos from './models/starterVideos.json'; 
 import Video from './components/Video'; 
 import About from './Pages/About'; 
-import Playlist from './components/Playlist'; 
+import Quiz from './components/Quiz'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 
@@ -29,9 +29,9 @@ const App = (Props) => {
            {videos.map((video) => <Video video={video} />)}
           </>
         )} />
-        <Route exact path="/Playlist" render={() => (
+        <Route exact path="/Quiz" render={() => (
           <>
-            <Playlist/>
+            <Quiz/>
           </>
         )} />
         <Route exact path="/About" render={() => (

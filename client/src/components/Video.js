@@ -13,7 +13,6 @@ const Video = (props) => {
         <div className="col-sm-8">
           <u><h2 id="title">{videoName}</h2></u>
           <p>{description}</p>
-          <button>Add Video</button>
         </div>
       </div>
     </div>
