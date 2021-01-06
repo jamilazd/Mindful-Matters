@@ -1,7 +1,7 @@
 [
 
     {
-        "thumbnail":"./vidImage2.png",
+        "thumbnail":"vidImage1.png",
         "videoName": "5 Minute Meditation You Can Do Anywhere",
         "author": "Goodful", 
         "durationInMins": 5.16,
@@ -10,16 +10,16 @@
     },
 
     {   
-        "thumbnail":"", 
-        "videoName": "7 Min Meditation to Start Your Day",
-        "author":  "Yoga With Adriene", 
-        "durationInMins": 7.20,
-        "description": "Use this meditation to set a positive intention for your day.",
-        "videoLink": "https://www.youtube.com/watch?v=k0PSUDvLi8E"
+        "thumbnail":"vidImage2.png", 
+        "videoName": "Meditation for Relaxation & Centering",
+        "author":  "Arianna Elizabeth", 
+        "durationInMins": 10.28,
+        "description": "A gentle meditation to relax and center your mind",
+        "videoLink": "https://www.youtube.com/watch?v=x-Ft-Y3trWY"
     },
 
     { 
-        "thumbnail":"", 
+        "thumbnail":"vidImage3.png", 
         "videoName": "10 Minute Meditation For Stress",
         "author":  "Goodful", 
         "durationInMins": 10.17,
@@ -28,16 +28,16 @@
     },
 
     {   
-        "thumbnail":"",
+        "thumbnail":"vidImage4.png",
         "videoName": "Meditation for Anxiety",
         "author":  "Yoga With Adriene", 
         "durationInMins": 14.13,
-        "description": "This video guides you through a simple at home meditation to provide relief from anxiety and stress.",
+        "description": "This video guides you through a simple at home meditation to help provide relief from anxiety.",
         "videoLink": "https://www.youtube.com/watch?v=4pLUleLdwY4"
     }, 
 
     {   
-        "thumbnail":"", 
+        "thumbnail":"vidImage5.png", 
         "videoName": "Meditation For Mental Balance and Grounding",
         "author":  "Yoga With Adriene", 
         "durationInMins": 17.12,
@@ -46,7 +46,7 @@
     }, 
 
     {   
-        "thumbnail":"",
+        "thumbnail":"vidImage6.png",
         "videoName": "10 Min Guided Meditation For Sleep & Relaxation",
         "author":  "Boho Beautiful", 
         "durationInMins": 12.20,

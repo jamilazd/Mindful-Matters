@@ -23,6 +23,7 @@
  
 }
 
+/*
 .img-fluid{
     float: right; 
     width: 100%;
@@ -35,6 +36,8 @@
 .img-fluid:hover{
     box-shadow: 0 0 4px 2px #B0896C;
 }
+
+*/ 
 
 .col-sm-8{
     margin-top: 20px;  
