@@ -1,9 +1,9 @@
 import React from 'react'; 
-import './About.css'; 
-import MMLogo from './MMLogo.png';
-import med from './med.jpg'; 
-import woman2 from './woman2.jpg'; 
-import woman3 from './woman3.png'; 
+import './About.css';  
+import MMLogo from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/images/MMLogo.png';
+import med from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/images/med.jpg'; 
+import woman2 from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/images/woman2.jpg'; 
+import woman3 from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/images/woman3.png'; 
  
 
 const About = () => {
@@ -29,9 +29,9 @@ const About = () => {
                </p> 
             </div>
             <div className="col" id="photos">
-                <img className="img-fluid" id="woman1" src={med} alt="meditating woman" />
-                <img className="img-fluid" id="woman2" src={woman2} alt="meditating woman" />
-                <img className="img-fluid" id="woman3" src={woman3} alt="meditating woman" />
+              <img className="img-fluid" id="woman1" src={med} alt="meditating woman" />
+              <img className="img-fluid" id="woman2" src={woman2} alt="meditating woman" />
+              <img className="img-fluid" id="woman3" src={woman3} alt="meditating woman" />
             </div>
             
         </div>
@@ -39,4 +39,33 @@ const About = () => {
 }
 
 export default About; 
+
+
+
+/* Fix fade carousel 
+          <div className="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div className="carousel-inner">
+                  <div className="carousel-item active">
+                      <img className="d-block w-100" src={med} alt="meditating woman" />
+                  </div>
+                  <div className="carousel-item">
+                     <img className="d-block w-100" src={woman2} alt="meditating woman" /> 
+                  </div>
+                  <div className="carousel-item">
+                     <img className="d-block w-100" src={woman3} alt="meditating woman" />
+                  </div>
+              </div> 
+              <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+              </a>
+              <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+              </a>
+            </div> 
+            */ 
+
+
+
 

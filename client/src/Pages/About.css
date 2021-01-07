@@ -8,7 +8,7 @@
     padding-top: 8px; 
     padding-bottom: 10px; 
     text-align: center;
-    background-image: url('Background.png');
+    background-image: url('./Background.png');
 }
 
 #h2{
