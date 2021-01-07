@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Quiz.css'; 
-import MMLogo from './MMLogo.png'; 
+import MMLogo from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/MMLogo.png'; 
 
 
 const Quiz = () => {
