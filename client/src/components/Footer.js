@@ -1,22 +1,24 @@
 import React from 'react'; 
 import './Footer.css'; 
-import guard from './guard.png'; 
-import hw from './hw.png'; 
-import psych from './psych.png'; 
+import guard from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/images/guard.png'; 
+import hw from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/images/hw.png'; 
+import psych from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/images/psych.png'; 
 
 
 const Footer = () => {
   return (
-    <footer id="footer" className="container-fluid">
-      <div className="trustLinks">
-        <p>AS FEATURED IN:</p>
-        <img className="col-sm-2" src={guard} alt="The Guardian Logo"></img>
-        <img className="col-sm-2" src={hw} alt="Health and Wellbeing Logo"></img>
-        <img className="col-sm-2" src={psych} alt="Psychology Today Logo"></img> 
-      </div>
-      <div id="bottomFooter">
-        <p className="col-sm-3">©2021 All rights reserved.</p>     
-      </div>
+    <footer className="container-fluid">
+      
+        <div className="col-sm" id="trustLinks">
+          <p>As Featured in:</p>
+          <img id="guard" className="img-fluid" src={guard} alt="the guardian"></img>
+          <img id="hw" className="img-fluid" src={hw} alt="health and wellbeing"></img>
+          <img id="psych" className="img-fluid" src={psych} alt="psychology today"></img> 
+        </div>
+        <div id="bottomFooter">
+          <p className="col-sm">©2021 All rights reserved.</p>     
+        </div>
+      
     </footer>
   );   
 }

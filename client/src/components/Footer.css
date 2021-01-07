@@ -1,14 +1,10 @@
-.trustLinks{
-    background-color: #C1CFCF;
-    padding-top: 20px; 
-    padding-bottom: 10px; 
-    font-family: 'Noto Serif', serif;
-    font-size: 22px; 
-    color: #024C46;
-    text-align: center; 
+#trustLinks{
+    height: 100px; 
+    background-color: #C1CFCF; 
     border-style: solid;
     border-width: 0.2px;
-    background-image: url(leaves.png); 
+    background-image: url(/Users/jd/Desktop/Mindful-Matters/client/src/Assets/images/leaves.png); 
+    
 }
 
 
@@ -17,4 +13,19 @@
     font-size: 12px; 
     background-color: #F0F1F1;
     
+}
+
+
+#hw{
+    width: 5em; 
+    margin-left: 10px; 
+}
+
+#guard{
+    width: 6em; 
+}
+
+#psych{
+    width: 6em; 
+    margin-left: 15px; 
 }
