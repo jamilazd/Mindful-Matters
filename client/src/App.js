@@ -36,7 +36,6 @@ const App = (Props) => {
         <Route exact path="/About" render={() => (
           <>
             <About/>
-            <Footer />
           </>
         )} />
    </BrowserRouter>
