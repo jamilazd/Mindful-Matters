@@ -1,0 +1,59 @@
+#home{
+    height: 900px;  
+}
+
+.img-fluid {
+    max-width: 100%;  
+    height: auto; 
+}
+
+.welcomeMessage{
+    position: relative;
+    padding-top: 30px; 
+    padding-bottom: 240px; 
+    background-color: #F0F1F1;
+    border: solid;
+    border-color: #024C46; 
+    border-width: 1px; 
+    text-align: left; 
+    border-width: 2px; 
+    border-style: solid;  
+    box-shadow: 5px 10px 8px #C1CFCF; 
+}
+
+#welcomeHead{
+    font-family: 'Noto Serif', serif;
+    font-size: 27px; 
+    font-weight: bold; 
+    color:#024C46; 
+    padding-top: 30px; 
+    margin-left: 20px; 
+}
+
+#welcomeP{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left; 
+    font-size: 18px;  
+    line-height: 1.6em; 
+    padding: 5px 350px 10px 20px; 
+}
+
+#MMLogo3{
+    width: 11%; 
+    float: right; 
+    position: relative;
+    left: 330px; 
+    bottom: 60px;
+}
+
+#videoPlayer{ 
+    position: relative;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    border: solid;
+    border-color: #B0896C; 
+    border-width: 3px; 
+
+}
