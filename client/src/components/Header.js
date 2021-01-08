@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom'; 
-import logo from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/logo.png'; 
+import logo from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/logo.png'; 
 import './Header.css'; 
 
 
