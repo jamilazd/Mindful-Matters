@@ -1,9 +1,9 @@
 import React from 'react'; 
 import './About.css';  
-import MMLogo from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/MMLogo.png';
-import med from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/med.jpg'; 
-import woman2 from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/woman2.jpg'; 
-import woman3 from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/woman3.png'; 
+import MMLogo from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/MMLogo.png';
+import med from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/med.jpg'; 
+import woman2 from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/woman2.jpg'; 
+import woman3 from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/woman3.png'; 
  
 
 const About = () => {
