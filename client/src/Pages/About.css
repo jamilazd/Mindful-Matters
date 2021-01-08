@@ -67,14 +67,13 @@ u {
     width: 12%; 
     float: right; 
     position: relative;
-    left: 340px; 
+    left: 350px; 
     bottom: 70px;
 }
 
 #photos { 
-    padding-bottom: 600px; 
+    padding-bottom: 300px; 
     padding-top: 120px; 
-    
 }
 
 #woman1 {
