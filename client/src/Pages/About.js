@@ -21,7 +21,7 @@ const About = () => {
                </div>
             </div>
             <div id="explain" className="col">
-               <h3 id="aboutHead">About</h3>
+               <u><h3 id="aboutHead">About</h3></u>
                <p id="aboutP">
                   Mindful Matters provides information on the latest mental wellbeing news and resources.
                   You can also drop by anytime to access thoughtfully curated mindfulness videos.
