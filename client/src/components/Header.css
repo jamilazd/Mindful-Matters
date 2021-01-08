@@ -30,3 +30,6 @@ body{
     -webkit-text-stroke: 0.6px #024C46;
 }
 
+#head{
+    padding-top: 2px; 
+}

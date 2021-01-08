@@ -6,7 +6,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header className="container-fluid">
+    <header id="head" className="container-fluid">
       <ul id="nav" className="nav nav-tabs nav justify-content-end navbar navbar-expand-lg navbar-light">
         <div className="container">
           <nav className="navbar-brand">
