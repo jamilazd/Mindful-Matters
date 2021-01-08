@@ -1,7 +1,7 @@
 [
 
     {
-        "thumbnail":"",
+        "thumbnail":"vidImage1.png",
         "videoName": "5 Minute Meditation You Can Do Anywhere",
         "author": "Goodful", 
         "durationInMins": 5.16,
@@ -9,8 +9,8 @@
         "videoLink":"https://www.youtube.com/watch?v=inpok4MKVLM"
     },
 
-    {   
-        "thumbnail":"vidImage2.png", 
+    {
+        "thumbnail": "vidImage2.png", 
         "videoName": "Meditation for Relaxation & Centering",
         "author":  "Arianna Elizabeth", 
         "durationInMins": 10.28,
@@ -54,11 +54,10 @@
         "videoLink": "https://www.youtube.com/watch?v=bG3AcN-XOrw"
     }
 
+
 ]
 
 
-    
-    
 
      
     
