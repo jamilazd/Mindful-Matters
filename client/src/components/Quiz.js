@@ -18,7 +18,7 @@ const Quiz = () => {
                </div>
             </div>
             <div className="col"  id="explainQuiz">
-                <h2 id="QuizHead">Mindfulness Quiz</h2>
+                <u><h2 id="QuizHead">Mindfulness Quiz</h2></u>
                 <p id="QuizP">
                     Welcome to the Mindful Matters Quiz. You can use this quiz to get a snapshot of your 
                     mental wellbeing. If you are concerned about your mental health, please see your General Practitoner 
@@ -26,12 +26,6 @@ const Quiz = () => {
                     <img className="img-fluid" id="MMLogo2" src={MMLogo} alt="Brand Logo" />
                 </p>
             </div>
-            <footer>
-              <p>
-                 The Mindful Matters Quiz is not for diagnostic purposes. Please see a Medical professional, such 
-                 as your General Practitioner if you have any concerns regarding your mental health.
-               </p>
-            </footer>
        </div>
        
     ); 
