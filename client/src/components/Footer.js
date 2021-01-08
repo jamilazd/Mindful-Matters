@@ -1,8 +1,8 @@
 import React from 'react'; 
 import './Footer.css'; 
-import guard from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/guard.png'; 
-import hw from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/hw.png'; 
-import psych from '/Users/jd/Desktop/Mindful-Matters/client/src/Assets/psych.png'; 
+import guard from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/guard.png'; 
+import hw from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/hw.png'; 
+import psych from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/psych.png'; 
 
 
 const Footer = () => {

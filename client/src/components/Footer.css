@@ -3,14 +3,17 @@
     background-color: #C1CFCF; 
     border-style: solid;
     border-width: 0.2px;
-    background-image: url(/Users/jd/Desktop/Mindful-Matters/client/src/Assets/leaves.png); 
+    font-family: 'Noto Serif', serif;
+    color:  #024C46; 
+    background-image: url(/Users/jd/Desktop/Mindful-Matters/client/src/assets/leaves.png); 
     
 }
 
 
 #bottomFooter{
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px; 
+    font-size: 13px; 
+    text-align: center; 
     background-color: #F0F1F1;
     border-color: #024C46; 
     border-style: solid;
