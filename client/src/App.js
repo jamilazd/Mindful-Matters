@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import { BrowserRouter, Route, } from 'react-router-dom';
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
-import Livefeed from './components/Livefeed';
-import starterVideos from './models/starterVideos.json'; 
-import Video from './components/Video'; 
-import About from './Pages/About'; 
-import Quiz from './components/Quiz'; 
+import VideoText from './components/VideoText'; 
+import Home from './pages/Home';
+import starterVideos from './models/starterVideos.json';
+import Video from './pages/Video'; 
+import About from './pages/About'; 
+import Quiz from './pages/Quiz'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 
@@ -19,12 +20,13 @@ const App = (Props) => {
       <Header />
         <Route exact path="/" render={() => (
           <>
-           <Livefeed />
+           <Home />
            <Footer />
           </>
         )} />
         <Route exact path="/Video" render={() => (
          <>
+           <VideoText />
            {videos.map((video) => <Video video={video} />)}
           </>
         )} />
@@ -36,6 +38,7 @@ const App = (Props) => {
         <Route exact path="/About" render={() => (
           <>
             <About/>
+            <Footer />
           </>
         )} />
    </BrowserRouter>
