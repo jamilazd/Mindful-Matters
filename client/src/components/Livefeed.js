@@ -13,6 +13,12 @@ const Livefeed = () => {
                             <i id="italic"> Mindful Matters' mission is to encourage steps towards better mental wellbeing.</i>
                         </u>
                     </div>
+                    <div className="welcomeMessage">
+                      <u><h3 id="welcomeHead">Welcome to Mindful Matters</h3></u>
+                      <p id="welcomeP">
+                         Mindfulness focuses on being aware of your feelings in the moment, without interruption. 
+                      </p>
+                    </div>
                </div>
             </div>
         </div>
@@ -23,8 +29,9 @@ const Livefeed = () => {
 export default Livefeed; 
 
 /*  
-Have a video at the top to the right, explaining what Mindfulness is. 
 
+<p> Mindfulness focuses on being aware of your feelings in the moment, without interruption.</p>
+Have heading over livefeed <h2>Latest Wellbeing news</h2>
 {
         "thumbnail":"./vidImage1.png",
         "videoName": "Mindfulness: What is it? BBC News",

@@ -25,13 +25,10 @@ export default Video;
   <div className="col">
     <h1 id="videoHead">Stop for a moment...</h1>
     <p id="videoP">
-      Mindfulness focuses on being aware of your feelings in the moment, without interruption or judgement. 
+      Mindfulness meditation can help reduce stress and relax the mind
+      Below is a carefully curated selection of Mindfulness videos you can watch now. 
     </p>
   </div>
-  <p>
-    Mindfulness meditation can help reduce stress and relax the mind. Below is a carefully curated selection
-    of Mindfulness videos you can watch now. 
-  </p>
 */
 
 
