@@ -1,0 +1,24 @@
+#privHeader{
+    font-family: 'Noto Serif', serif;
+    color: #024C46; 
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+#privacyI {
+    margin-left: 500px; 
+}
+
+h2{
+    font-family: 'Noto Serif', serif;
+    color: #024C46; 
+}
+
+.policyP{
+    font-family:'Montserrat', sans-serif;
+    margin-left: 50px; 
+    margin-right: 50px; 
+    text-align: justify;
+    padding-top: 15px; 
+    padding-bottom: 60px; 
+}
