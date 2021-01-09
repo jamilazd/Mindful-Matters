@@ -8,6 +8,7 @@ import starterVideos from './models/starterVideos.json';
 import Video from './pages/Video'; 
 import About from './pages/About'; 
 import Quiz from './pages/Quiz'; 
+import Privacy from './pages/Privacy'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 
@@ -38,6 +39,12 @@ const App = (Props) => {
         <Route exact path="/About" render={() => (
           <>
             <About/>
+            <Footer />
+          </>
+        )} />
+        <Route exact path="/Privacy" render={() => (
+          <>
+            <Privacy />
             <Footer />
           </>
         )} />
