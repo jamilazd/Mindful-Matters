@@ -1,24 +1,13 @@
 #home{
-    height: 900px;  
+    height: 1000px;  
 }
 
-.img-fluid {
-    max-width: 100%;  
-    height: auto; 
-}
-
-.welcomeMessage{
-    position: relative;
-    padding-top: 30px; 
-    padding-bottom: 240px; 
-    background-color: #F0F1F1;
+#vidContainer{
+    padding-top: 180px; 
+    padding-bottom: 320px; 
     border: solid;
     border-color: #024C46; 
-    border-width: 1px; 
-    text-align: left; 
     border-width: 2px; 
-    border-style: solid;  
-    box-shadow: 5px 10px 8px #C1CFCF; 
 }
 
 #welcomeHead{
@@ -38,19 +27,11 @@
     padding: 5px 350px 10px 20px; 
 }
 
-#MMLogo3{
-    width: 11%; 
-    float: right; 
-    position: relative;
-    left: 330px; 
-    bottom: 60px;
-}
-
 #videoPlayer{ 
     position: relative;
     top: 0;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 70%;
     margin-left: 20px;
     border: solid;
     border-color: #B0896C; 
