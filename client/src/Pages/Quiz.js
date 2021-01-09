@@ -20,9 +20,8 @@ const Quiz = () => {
             <div className="col"  id="explainQuiz">
                 <u><h2 id="QuizHead">Mindfulness Quiz</h2></u>
                 <p id="QuizP">
-                    Welcome to the Mindful Matters Quiz. You can use this quiz to get a snapshot of your 
-                    mental wellbeing. If you are concerned about your mental health, please see your General Practitoner 
-                    or a lisenced Mental Health Professional. 
+                    Welcome to the Mindful Matters Quiz. You can use this informal quiz to get a snapshot of your wellbeing. 
+                    If you are concerned about your mental health, please see a lisenced Mental Health Professional. 
                     <img className="img-fluid" id="MMLogo2" src={MMLogo} alt="Brand Logo" />
                 </p>
             </div>
