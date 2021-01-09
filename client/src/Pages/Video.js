@@ -8,7 +8,7 @@ const Video = (props) => {
   return(
     <div id="video" className="container-fluid">
       <div className="row">
-        <img className="img-fluid" src={thumbnail} alt="video image"/> 
+        <img id="vidThumb" className="img-fluid" src={thumbnail} alt="video image"/> 
         <div id="vidDescription" className="col-sm-8">
           <u><h2 id="title">{videoName}</h2></u>
           <p>{description}</p>
