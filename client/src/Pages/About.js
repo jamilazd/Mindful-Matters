@@ -23,8 +23,10 @@ const About = () => {
             <div id="explain" className="col">
                <u><h3 id="aboutHead">About</h3></u>
                <p id="aboutP">
-                  Mindful Matters provides information on the latest mental wellbeing news and resources.
-                  You can also drop by anytime to access thoughtfully curated mindfulness videos.
+                  Mindful Matters is on a mission to encourage steps towards better mental wellbeing, by 
+                  promoting Mindfulness Meditation. Mindfullness is the process of acknowledging your feelings 
+                  in the moment, without interruption or judgement. You can use Mindful Matters to learn the 
+                  basics of Mindfulness and catch up on the latest mental wellbeing news. 
                   <img className="img-fluid" id="MMLogo" src={MMLogo} alt="Brand Logo" />
                </p> 
             </div>
@@ -42,29 +44,7 @@ export default About;
 
 
 
-/* Fix fade carousel 
-          <div className="carousel slide carousel-fade" data-bs-ride="carousel">
-              <div className="carousel-inner">
-                  <div className="carousel-item active">
-                      <img className="d-block w-100" src={med} alt="meditating woman" />
-                  </div>
-                  <div className="carousel-item">
-                     <img className="d-block w-100" src={woman2} alt="meditating woman" /> 
-                  </div>
-                  <div className="carousel-item">
-                     <img className="d-block w-100" src={woman3} alt="meditating woman" />
-                  </div>
-              </div> 
-              <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
-                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span className="visually-hidden">Previous</span>
-              </a>
-              <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
-                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span className="visually-hidden">Next</span>
-              </a>
-            </div> 
-            */ 
+
 
 
 
