@@ -10,7 +10,7 @@ const Video = (props) => {
       <div className="row">
         <img id="vidThumb" className="img-fluid" src={thumbnail} alt="video image"/> 
         <div id="vidDescription" className="col-sm-8">
-          <u><h2 id="title">{videoName}</h2></u>
+          <h2 id="title">{videoName}</h2>
           <p>{description}</p>
         </div>
       </div>
