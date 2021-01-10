@@ -1,6 +1,11 @@
+#footerCont{
+    padding-top: 250px; 
+}
+
+
 #footer{
     font-family: 'Noto Serif', serif;
-    color:  #024C46; 
+    color:  #B0896C; 
     height: 190px; 
     padding-top: 10px; 
     background-color: #C1CFCF; 
@@ -13,7 +18,7 @@
     font-size: 22px;
     color: #C1CFCF; 
     margin-right: 600px; 
-    -webkit-text-stroke: 0.6px #024C46; 
+    -webkit-text-stroke: 0.6px #B0896C; 
 }
 
 #footImg{

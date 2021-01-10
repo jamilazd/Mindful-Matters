@@ -21,7 +21,7 @@ const About = () => {
                </div>
             </div>
             <div id="explain" className="col">
-               <u><h3 id="aboutHead">About</h3></u>
+               <h3 id="aboutHead">About</h3>
                <p id="aboutP">
                   Mindful Matters is on a mission to encourage steps towards better mental wellbeing, by 
                   promoting Mindfulness Meditation. Mindfullness is the process of acknowledging your feelings 
