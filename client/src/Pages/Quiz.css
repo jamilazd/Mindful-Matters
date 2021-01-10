@@ -17,14 +17,16 @@
     color:#024C46; 
     padding-top: 20px; 
     padding-left: 20px;
+    text-decoration: underline; 
+    text-decoration-color: #B0896C;
 }
 
 #MMLogo2{
-    width: 10%; 
+    width: 9%; 
     float: right; 
     position: relative;
     left: 230px; 
-    bottom: 90px;
+    bottom: 80px;
 }
 
 #MMLogo2:hover{

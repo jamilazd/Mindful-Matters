@@ -18,7 +18,7 @@ const Quiz = () => {
                </div>
             </div>
             <div className="col"  id="explainQuiz">
-                <u><h2 id="QuizHead">Mindfulness Quiz</h2></u>
+                <h2 id="QuizHead">Mindfulness Quiz</h2>
                 <p id="QuizP">
                     Welcome to the Mindful Matters Quiz. You can use this informal quiz to get a snapshot of your wellbeing. 
                     If you are concerned about your mental health, please see a lisenced Mental Health Professional. 
