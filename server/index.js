@@ -6,6 +6,8 @@ const bodyParser = require('body-parser');
 require('./models/Users');
 
 const app = express();
+app.use('/static', express.static(__dirname + '/assets'));
+console.log('here is how the relative path looks', __dirname);
 
 mongoose.Promise = global.Promise;
 mongoose.connect(
