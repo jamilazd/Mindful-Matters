@@ -2,12 +2,61 @@
     height: 1000px;  
 }
 
+#homeMessage{
+    background-color: #F0F1F1;
+
+}
+
+.homeHead{
+    font-family: 'Noto Serif', serif;
+    font-size: 32px; 
+    font-weight: bold; 
+    color:#024C46; 
+    padding-top: 50px; 
+    padding-bottom: 10px; 
+    margin-left: 40px; 
+    text-decoration: underline;
+    text-decoration-color: #B0896C;
+}
+
+#homeP{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left; 
+    font-size: 19px;  
+    line-height: 1.6em; 
+    margin-left: 40px; 
+    margin-right: 660px;  
+    padding-bottom: 20px; 
+}
+
+#MMLogo4{
+    width: 15%; 
+    float: right; 
+    position: relative;
+    left: 640px; 
+    bottom: 60px;
+}
+
+
+#MMLogo4:hover{
+    box-shadow: 0 0 4px 2px #B0896C;
+}
+
+#homeLink{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;  
+    color:#B0896C; 
+    position: relative;
+    left: 430px; 
+    bottom: 90px; 
+    text-decoration: underline;
+}
+
+
 #vidContainer{
-    padding-top: 180px; 
-    padding-bottom: 320px; 
-    border: solid;
-    border-color: #024C46; 
-    border-width: 2px; 
+    padding-top: 10px; 
+    padding-bottom: 50px; 
+    background-color: #F0F1F1; 
 }
 
 #welcomeHead{
@@ -37,4 +86,14 @@
     border-color: #B0896C; 
     border-width: 3px; 
 
+}
+
+#homeStories{
+    background-color: #F0F1F1; 
+    padding-bottom: 50px; 
+    
+}
+
+.card{
+    width: 18rem;
 }
