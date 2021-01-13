@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter, Route, } from 'react-router-dom';
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
+import TaglineCard from './components/TaglineCard'; 
 import VideoText from './components/VideoText'; 
 import Home from './pages/Home';
 import starterVideos from './models/starterVideos.json';
@@ -21,6 +22,7 @@ const App = (Props) => {
       <Header />
         <Route exact path="/" render={() => (
           <>
+           <TaglineCard />
            <Home />
            <Footer />
           </>
@@ -38,6 +40,7 @@ const App = (Props) => {
         )} />
         <Route exact path="/About" render={() => (
           <>
+            <TaglineCard />
             <About/>
             <Footer />
           </>
