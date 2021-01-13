@@ -10,13 +10,6 @@ const Home = () => {
         <div id="home" className="container-fluid">
             <div className="row">
                 <div className="col">
-                    <div className="tagline">
-                      <h2 id="h2">Your Mind Matters </h2>
-                      <br/>
-                        <u>
-                            <i id="italic"> Mindful Matters' mission is to encourage steps towards better mental wellbeing.</i>
-                        </u>
-                    </div>
                     <div id="homeMessage">
                        <h2 className="homeHead">Be Kind To Yourself</h2>
                        <p id="homeP">
