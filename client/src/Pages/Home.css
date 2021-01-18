@@ -8,12 +8,14 @@
     background-color: #F0F1F1;
     border: solid;
     border-color: #024C46; 
-    border-width: 2px; 
+    border-width: 1px; 
+    border-style: solid;  
+    box-shadow: 5px 10px 8px #C1CFCF;
 }
 
 .homeHead{
     font-family: 'Noto Serif', serif;
-    font-size: 27px; 
+    font-size: 30px; 
     font-weight: bold; 
     color:#024C46; 
     padding-top: 70px; 
@@ -56,9 +58,12 @@
     text-decoration: underline;
 }
 
+#homeLink:hover{
+    color: #FFC300; 
+}
 
 #vidContainer{
-    padding-top: 90px; 
+    padding-top: 80px; 
     padding-bottom: 80px; 
 
 }
@@ -93,28 +98,43 @@
 }
 
 #homeStories{
-    padding-bottom: 30px; 
-    text-align: center; 
-    margin-right: 80px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    font-size: 30px; 
+    font-weight: bold; 
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.1px #024C46;
+    text-decoration: underline;
+    text-decoration-color: #024C46;
+    background-color: #8A9A5B;
+    border: solid;
+    border-color: #B0896C; 
+    border-width: 2px; 
 }
 
-.card{
+.moveCard{
+    padding-top: 60px; 
+}
+
+.card {
     width: 19em;
     height: 22em; 
     margin-left: 30px; 
     
 }
 
-
 .card-title{
-    font-size: 80px; 
-    color:#F0F1F1; 
-    font-family: 'Fraunces', serif;
     background-image: url('./Background.png');
+    font-size: 80px; 
+    color:#FFFFFF; 
+    font-family: 'Fraunces', serif;
+    -webkit-text-stroke: 2px #8A9A5B; 
+    
 }
 
 .card-body{
-    background-color: #F0F1F1;
+    background-color: #FFFFFF; 
     border: solid;
     border-color: #B0896C; 
     border-width: 2px; 
@@ -128,6 +148,7 @@
     font-family: 'Noto Serif', serif;
     text-align: left; 
     font-size: 20px; 
+    color: #024C46; 
 }
 
 .user{

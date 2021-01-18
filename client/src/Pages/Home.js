@@ -10,7 +10,7 @@ const Home = () => {
             <div className="row">
                 <div className="col">
                     <div id="homeMessage">
-                       <h2 className="homeHead">Be Kind To Yourself</h2>
+                       <h2 className="homeHead">Be Kind To Yourself!</h2>
                        <p id="homeP">
                            It all starts with just a few minutes a day to begin reducing stress and building
                            mental resilience. Mindfulness really is for everyone! You can try one of our mindfulness videos 
@@ -26,45 +26,51 @@ const Home = () => {
                           <ReactPlayer url="https://www.youtube.com/watch?v=APX33ncDER0"/>  
                        </div>   
                   </div>  
-                  <div id="homeStories">
-                      <h2 className="homeHead">
+                  <div>
+                      <h2 id="homeStories">
                           Mindful Matters Stories 
                       </h2>
                   </div>  
                </div>
             </div>
             <div className="row">
-                <div className="col">
-                    <div className="card" >
-                        <div className="card-body">
-                            <h1 className="card-title">"</h1>
-                            <p className="card-text">
-                                Mindful Matters really helped me to kickstart my mental wellbeing journey.
-                            </p> 
-                            <h2 className="user"> - Amala Khan</h2>   
-                        </div>
+                <div className="col-sm">
+                    <div className="moveCard">
+                       <div className="card" >
+                           <div className="card-body">
+                              <h1 className="card-title">"</h1>
+                               <p className="card-text">
+                                  Mindful Matters really helped me to kickstart my mental wellbeing journey.
+                              </p> 
+                              <h2 className="user"> - Amala Khan</h2>   
+                           </div>
+                       </div>
                     </div> 
                 </div>
                 <div className="col-sm">
-                    <div className="card">
-                        <div className="card-body">
-                            <h1 className="card-title">"</h1>
-                            <p className="card-text">
-                                Since I started watching your mindfulness videos, I've felt less stressed in my day to day.
-                            </p>  
-                            <h2 className="user"> - Shaun McTee</h2> 
-                        </div>
-                    </div> 
+                   <div className="moveCard">
+                       <div className="card">
+                           <div className="card-body">
+                              <h1 className="card-title">"</h1>
+                               <p className="card-text">
+                                  Since I started watching your mindfulness videos, I've felt less stressed in my day to day.
+                               </p>  
+                               <h2 className="user"> - Shaun McTee</h2> 
+                           </div>
+                       </div> 
+                   </div>
                 </div>
                 <div className="col-sm">
-                    <div className="card">
-                        <div className="card-body">
-                            <h1 className="card-title">"</h1>
-                            <p className="card-text">
-                                I learnt a lot about Mindfulness and how I can use it to reduce anxiety. 
-                            </p>
-                            <h2 className="user"> - Paula Reese </h2>      
-                        </div>
+                    <div className="moveCard">
+                       <div className="card">
+                           <div className="card-body">
+                              <h1 className="card-title">"</h1>
+                               <p className="card-text">
+                                  I learnt a lot about Mindfulness and how I can use it to reduce anxiety. 
+                              </p>
+                              <h2 className="user"> - Paula Reese </h2>      
+                          </div>
+                       </div>
                     </div> 
                 </div>
             </div>
