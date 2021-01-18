@@ -3,7 +3,7 @@ body{
 }
 
 #nav{
-    background-color: #F7EBE2;
+    background-color: #A0CECA; 
     border-style: solid;
     border-width: 0.8px;
     border-color:#024C46;
@@ -24,7 +24,7 @@ body{
 
 
 #navBrand {
-    font-size: 22px; 
+    font-size: 24px; 
     font-family: 'Noto Serif', serif;
     text-align: center;
     color: #FFFFFF; 
