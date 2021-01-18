@@ -8,7 +8,6 @@ import Home from './pages/Home';
 import starterVideos from './models/starterVideos.json';
 import Video from './pages/Video'; 
 import About from './pages/About'; 
-import Quiz from './pages/Quiz'; 
 import Privacy from './pages/Privacy'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
@@ -31,11 +30,6 @@ const App = (Props) => {
          <>
            <VideoText />
            {videos.map((video) => <Video video={video} />)}
-          </>
-        )} />
-        <Route exact path="/Quiz" render={() => (
-          <>
-            <Quiz/>
           </>
         )} />
         <Route exact path="/About" render={() => (

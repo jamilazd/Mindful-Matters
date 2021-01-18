@@ -20,9 +20,6 @@ const Header = () => {
             <Link id="navStyle"  className="nav-link Video" to="/Video">Videos</Link>
           </nav>
           <nav className="nav-item">
-            <Link id="navStyle" className="nav-link Quiz" to="/Quiz">Quiz</Link>
-          </nav>
-          <nav className="nav-item">
             <Link id="navStyle" className="nav-link About" to="/About">About</Link>
           </nav>
         </div>
