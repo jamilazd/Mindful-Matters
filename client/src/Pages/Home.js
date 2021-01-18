@@ -10,7 +10,7 @@ const Home = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col">
-                    <div id="homeMessage">
+                    <div id="homeMessage" >
                        <h2 className="homeHead">Be Kind To Yourself</h2>
                        <p id="homeP">
                            Mindfulness. It all starts with just a few minutes a day.
@@ -21,21 +21,20 @@ const Home = () => {
                             <Link id="homeLink"  to="/Video">Start Your Journey</Link>
                         </nav>
                     </div>
-                    <div id="vidContainer">
-                       <hr />
+                    <div id="vidContainer" >
                        <div className="embed-responsive embed-responsive" id="videoPlayer">
                           <ReactPlayer url="https://www.youtube.com/watch?v=APX33ncDER0"/>  
                        </div>   
                   </div>  
-                  <div id="homeStories">
+                  <div id="homeStories" >
                       <h2 className="homeHead">
                           Mindful Matters Stories 
                       </h2>
                   </div>  
                </div>
             </div>
-            <div className="row">
-                <div className="col">
+            <div className="row" >
+                <div id="box" className="col">
                     <div className="card">
                         <div className="card-body">
                             <h1 className="card-title">"</h1>
@@ -46,11 +45,11 @@ const Home = () => {
                     </div> 
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div id="card2" className="card">
                         <div className="card-body">
                             <h1 className="card-title">"</h1>
                             <p className="card-text">
-                                Mindful Matters really helped me to kickstart my mental wellbeing journey.
+                                Since I started watching your mindfulness videos, I've felt less stressed in my day to day.
                             </p>   
                         </div>
                     </div> 
