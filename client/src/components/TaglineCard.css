@@ -6,3 +6,25 @@
     text-align: center;
     background-image: url('./Background.png');
 }
+
+#h2{
+    color: #F9F9F9;
+    -webkit-text-stroke: 1.4px #000000;
+    font-size: 46px; 
+    position: relative;
+    top: 15px; 
+
+}
+
+#italic{
+    position: relative;
+    bottom: 15px; 
+    font-family: 'Noto Serif', serif; 
+    font-size: 20px;  
+    font-weight: bold; 
+    color: #F9F9F9; 
+}
+
+u {
+   color: #B0896C; 
+}
