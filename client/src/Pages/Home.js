@@ -23,7 +23,7 @@ const Home = () => {
                     </div>
                     <div id="vidContainer">
                        <hr />
-                       <div class="embed-responsive embed-responsive" id="videoPlayer">
+                       <div className="embed-responsive embed-responsive" id="videoPlayer">
                           <ReactPlayer url="https://www.youtube.com/watch?v=APX33ncDER0"/>  
                        </div>   
                   </div>  

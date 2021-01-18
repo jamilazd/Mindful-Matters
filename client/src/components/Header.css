@@ -22,14 +22,15 @@ body{
     border-color:#B0896C;
 }
 
-#brandName {
-    font-size: 24px; 
+
+#navBrand {
+    font-size: 22px; 
     font-family: 'Noto Serif', serif;
     text-align: center;
     color: #FFFFFF; 
-    margin-right: 600px; 
     -webkit-text-stroke: 0.7px #024C46;
 }
+ 
 
 #head{
     padding-top: 2px; 
