@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,800&display=swap');
 
+#contain{
+    height: 90em; 
+}
+
 #homeMessage{
     background-color: #F0F1F1;
     border: solid;
     border-color: #024C46; 
     border-width: 2px; 
-    border-width: 2px; 
-    border-style: solid;  
-    box-shadow: 5px 10px 8px #C1CFCF; 
 }
 
 .homeHead{
     font-family: 'Noto Serif', serif;
-    font-size: 32px; 
+    font-size: 27px; 
     font-weight: bold; 
     color:#024C46; 
     padding-top: 70px; 
-    padding-bottom: 10px; 
+    padding-bottom: 5px; 
     margin-left: 40px; 
     text-decoration: underline;
     text-decoration-color: #B0896C;
@@ -25,18 +26,18 @@
 #homeP{
     font-family: 'Montserrat', sans-serif;
     text-align: left; 
-    font-size: 20px;  
+    font-size: 19px;  
     line-height: 1.6em; 
     margin-left: 40px; 
-    margin-right: 220px;  
-    padding-bottom: 20px; 
+    margin-right: 230px;  
+    padding-bottom: 10px; 
 }
 
 #MMLogo4{
-    width: 10%; 
+    width: 9%; 
     float: right; 
     position: relative;
-    left: 200px; 
+    left: 210px; 
     bottom: 70px;
 }
 
@@ -49,22 +50,23 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 19px;  
     color:#024C46; 
-    margin-left: 584px; 
+    margin-left: 510px; 
     position: relative;
-    bottom: 66px; 
+    bottom: 55px; 
     text-decoration: underline;
 }
 
 
 #vidContainer{
-    padding-top: 80px; 
-    padding-bottom: 10px; 
+    padding-top: 90px; 
+    padding-bottom: 80px; 
+
 }
 
 #videoPlayer{ 
     position: relative;
     top: 0;
-    width: 60%;
+    width: 50%;
     height: 70%;
     margin-left: 40px;
     border: solid;
@@ -91,23 +93,24 @@
 }
 
 #homeStories{
-    padding-bottom: 20px; 
+    padding-bottom: 30px; 
+    text-align: center; 
+    margin-right: 80px; 
 }
 
 .card{
-    width: 20em;
+    width: 19em;
     height: 22em; 
     margin-left: 30px; 
+    
 }
 
-#card2{
-    margin-right: 500px; 
-}
 
 .card-title{
     font-size: 80px; 
-    color:#024C46; 
+    color:#F0F1F1; 
     font-family: 'Fraunces', serif;
+    background-image: url('./Background.png');
 }
 
 .card-body{
@@ -125,4 +128,10 @@
     font-family: 'Noto Serif', serif;
     text-align: left; 
     font-size: 20px; 
+}
+
+.user{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; 
+    padding-top: 20px; 
 }

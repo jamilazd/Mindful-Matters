@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom';
 import ReactPlayer from "react-player"; 
 import MMLogo from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/MMLogo.png';
 
-
 const Home = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="contain">
             <div className="row">
                 <div className="col">
-                    <div id="homeMessage" >
+                    <div id="homeMessage">
                        <h2 className="homeHead">Be Kind To Yourself</h2>
                        <p id="homeP">
                            It all starts with just a few minutes a day to begin reducing stress and building
@@ -22,36 +21,49 @@ const Home = () => {
                             <Link id="homeLink"  to="/Video">Start Your Journey</Link>
                         </nav>
                     </div>
-                    <div id="vidContainer" >
+                    <div id="vidContainer">
                        <div className="embed-responsive embed-responsive" id="videoPlayer">
                           <ReactPlayer url="https://www.youtube.com/watch?v=APX33ncDER0"/>  
                        </div>   
                   </div>  
-                  <div id="homeStories" >
+                  <div id="homeStories">
                       <h2 className="homeHead">
                           Mindful Matters Stories 
                       </h2>
                   </div>  
                </div>
             </div>
-            <div className="row" >
-                <div id="box" className="col">
-                    <div className="card">
+            <div className="row">
+                <div className="col">
+                    <div className="card" >
                         <div className="card-body">
                             <h1 className="card-title">"</h1>
                             <p className="card-text">
                                 Mindful Matters really helped me to kickstart my mental wellbeing journey.
-                            </p>   
+                            </p> 
+                            <h2 className="user"> - Amala Khan</h2>   
                         </div>
                     </div> 
                 </div>
-                <div className="col">
-                    <div id="card2" className="card">
+                <div className="col-sm">
+                    <div className="card">
                         <div className="card-body">
                             <h1 className="card-title">"</h1>
                             <p className="card-text">
                                 Since I started watching your mindfulness videos, I've felt less stressed in my day to day.
-                            </p>   
+                            </p>  
+                            <h2 className="user"> - Shaun McTee</h2> 
+                        </div>
+                    </div> 
+                </div>
+                <div className="col-sm">
+                    <div className="card">
+                        <div className="card-body">
+                            <h1 className="card-title">"</h1>
+                            <p className="card-text">
+                                I learnt a lot about Mindfulness and how I can use it to reduce anxiety. 
+                            </p>
+                            <h2 className="user"> - Paula Reese </h2>      
                         </div>
                     </div> 
                 </div>

@@ -8,7 +8,7 @@ import woman3 from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/woman3.p
 
 const About = () => {
     return (
-        <div id="box" className="container-fluid">
+        <div className="container-fluid">
             <div id="explain" className="col">
                <h3 id="aboutHead">About</h3>
                <p id="aboutP">
