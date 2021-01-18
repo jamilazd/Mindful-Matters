@@ -3,33 +3,31 @@ body{
 }
 
 #nav{
-    background-color: #F0F1F1;
+    background-color: #8A9A5B;
     border-style: solid;
-    border-width: 0.8px;
-    border-color:#024C46;
-}
-
-
-#navStyle {
-    color:  #698484; 
-    font-family: 'Noto Serif', serif;
-}
-
-#navStyle:hover {
-    color: #B0896C; 
-    border-style: solid;
-    border-width: 0.2px;
+    border-width: 1px;
     border-color:#B0896C;
 }
 
 
-#navBrand {
-    font-size: 24px; 
-    font-family: 'Noto Serif', serif;
-    text-decoration: underline;
-    text-decoration-color: #B0896C;
+#navStyle {
     color: #FFFFFF; 
-    -webkit-text-stroke: 0.7px #024C46;
+    font-family: 'Noto Serif', serif;
+}
+
+#navStyle:hover {
+    color: #FFC300; 
+    border-style: solid;
+    border-width: 0.2px;
+    border-color:#C1A87D;
+}
+
+
+#navBrand {
+    font-size: 26px; 
+    font-family: 'Noto Serif', serif;
+    color: #FFFFFF; 
+    -webkit-text-stroke: 0.8px #024C46;
 }
  
 
