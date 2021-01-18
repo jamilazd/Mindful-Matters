@@ -19,7 +19,6 @@ const Footer = () => {
         <img id="guard" className="img-fluid" src={guard} alt="the guardian"></img>
         <img id="hw" className="img-fluid" src={hw} alt="health and wellbeing"></img>
         <img id="psych" className="img-fluid" src={psych} alt="psychology today"></img>
-        <hr/>
         <nav>
           <Link className="nav-link" id="navPrivacy" to="/Privacy">Privacy</Link>
         </nav>
