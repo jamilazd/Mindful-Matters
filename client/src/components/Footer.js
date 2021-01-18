@@ -9,7 +9,7 @@ import psych from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/psych.png
 
 const Footer = () => {
   return (
-    <footer id="footerCont" className="container-fluid">
+    <footer className="container-fluid">
       <div id="footer" className="col-sm">
         <h1 id="footHead1">
           <img id="footImg" src={logo} alt="Logo"/>
