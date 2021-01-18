@@ -1,5 +1,5 @@
 import React from 'react'; 
-import './VideoText.css';  
+import './VideoText.css'; 
 
 const VideoText = () => {
     return (
