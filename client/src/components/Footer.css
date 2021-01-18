@@ -16,9 +16,10 @@
 
 #footHead1{
     font-size: 22px;
-    color: #C1CFCF; 
+    color: #FFFFFF; 
     margin-right: 600px; 
-    -webkit-text-stroke: 0.6px #B0896C; 
+    -webkit-text-stroke: 0.7px #024C46; 
+    padding-bottom: 5px; 
 }
 
 #footImg{

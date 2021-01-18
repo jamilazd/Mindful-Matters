@@ -3,7 +3,7 @@ body{
 }
 
 #nav{
-    background-color: #F7F9F9;
+    background-color: #F7EBE2;
     border-style: solid;
     border-width: 0.8px;
     border-color:#024C46;
@@ -23,12 +23,12 @@ body{
 }
 
 #brandName {
-    font-size: 23px; 
+    font-size: 24px; 
     font-family: 'Noto Serif', serif;
     text-align: center;
-    color: #C1CFCF; 
+    color: #FFFFFF; 
     margin-right: 600px; 
-    -webkit-text-stroke: 0.6px #B0896C;
+    -webkit-text-stroke: 0.7px #024C46;
 }
 
 #head{
