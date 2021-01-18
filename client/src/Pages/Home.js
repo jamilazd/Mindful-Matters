@@ -7,7 +7,7 @@ import MMLogo from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/MMLogo.p
 
 const Home = () => {
     return (
-        <div id="home" className="container-fluid">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col">
                     <div id="homeMessage">
@@ -17,12 +17,12 @@ const Home = () => {
                            Reduce stress and build mental resilience.  
                            <img className="img-fluid" id="MMLogo4" src={MMLogo} alt="Brand Logo" />
                        </p>
-                       <hr />
                        <nav>
-                            <Link id="homeLink" className="nav-link" to="/Video">Start Your Journey</Link>
+                            <Link id="homeLink"  to="/Video">Start Your Journey</Link>
                         </nav>
                     </div>
-                    <div id="vidContainer" className="col">
+                    <div id="vidContainer">
+                       <hr />
                        <div class="embed-responsive embed-responsive" id="videoPlayer">
                           <ReactPlayer url="https://www.youtube.com/watch?v=APX33ncDER0"/>  
                        </div>   
@@ -31,9 +31,7 @@ const Home = () => {
                       <h2 className="homeHead">
                           Mindful Matters Stories 
                       </h2>
-                  </div>
-                  
-                       
+                  </div>   
                </div>
             </div>
         </div>

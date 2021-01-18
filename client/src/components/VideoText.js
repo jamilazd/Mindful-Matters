@@ -1,7 +1,6 @@
 import React from 'react'; 
 import './VideoText.css';  
 
-
 const VideoText = () => {
     return (
         <div className="container-fluid">
