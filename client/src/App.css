@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-html, body, #root, .App {
-    height: 100%;
-}
 
 ::-webkit-scrollbar {
     width: 15px;
