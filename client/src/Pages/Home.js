@@ -31,8 +31,30 @@ const Home = () => {
                       <h2 className="homeHead">
                           Mindful Matters Stories 
                       </h2>
-                  </div>   
+                  </div>  
                </div>
+            </div>
+            <div className="row">
+                <div className="col">
+                    <div className="card">
+                        <div className="card-body">
+                            <h1 className="card-title">"</h1>
+                            <p className="card-text">
+                                Mindful Matters really helped me to kickstart my mental wellbeing journey.
+                            </p>   
+                        </div>
+                    </div> 
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <div className="card-body">
+                            <h1 className="card-title">"</h1>
+                            <p className="card-text">
+                                Mindful Matters really helped me to kickstart my mental wellbeing journey.
+                            </p>   
+                        </div>
+                    </div> 
+                </div>
             </div>
         </div>
     ); 
@@ -41,27 +63,8 @@ const Home = () => {
 
 export default Home; 
 
-/*  
-<div className="container">
-
-<div className="card" >
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div> 
-                  </div>   
 
 
-
-
-</div>
- 
-
-
-
-Have image card thing over the top of the feed and then feed below.
-Feed will have to be created as a serepeate component and imported into the livefeed 
-remame livefeed to Home - also change in the app.js 
-
-*/ 
+   
+        
+    
