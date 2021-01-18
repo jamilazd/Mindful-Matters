@@ -13,8 +13,9 @@ const Home = () => {
                     <div id="homeMessage" >
                        <h2 className="homeHead">Be Kind To Yourself</h2>
                        <p id="homeP">
-                           Mindfulness. It all starts with just a few minutes a day.
-                           Reduce stress and build mental resilience.  
+                           It all starts with just a few minutes a day to begin reducing stress and building
+                           mental resilience. Mindfulness really is for everyone! You can try one of our mindfulness videos 
+                           and start learning how to incorporate Mindfulness practice into your life. 
                            <img className="img-fluid" id="MMLogo4" src={MMLogo} alt="Brand Logo" />
                        </p>
                        <nav>

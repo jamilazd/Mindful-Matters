@@ -25,19 +25,19 @@
 #homeP{
     font-family: 'Montserrat', sans-serif;
     text-align: left; 
-    font-size: 19px;  
+    font-size: 20px;  
     line-height: 1.6em; 
     margin-left: 40px; 
-    margin-right: 660px;  
+    margin-right: 220px;  
     padding-bottom: 20px; 
 }
 
 #MMLogo4{
-    width: 15%; 
+    width: 10%; 
     float: right; 
     position: relative;
-    left: 640px; 
-    bottom: 60px;
+    left: 200px; 
+    bottom: 70px;
 }
 
 
@@ -49,9 +49,9 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 19px;  
     color:#024C46; 
-    margin-left: 449px; 
+    margin-left: 584px; 
     position: relative;
-    bottom: 79px; 
+    bottom: 66px; 
     text-decoration: underline;
 }
 
