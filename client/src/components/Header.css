@@ -26,7 +26,8 @@ body{
 #navBrand {
     font-size: 24px; 
     font-family: 'Noto Serif', serif;
-    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #B0896C;
     color: #FFFFFF; 
     -webkit-text-stroke: 0.7px #024C46;
 }

@@ -17,6 +17,8 @@
 #footHead1{
     font-size: 23px;
     color: #FFFFFF; 
+    text-decoration: underline;
+    text-decoration-color: #B0896C;
     margin-right: 600px; 
     -webkit-text-stroke: 0.7px #024C46; 
     padding-bottom: 5px; 
