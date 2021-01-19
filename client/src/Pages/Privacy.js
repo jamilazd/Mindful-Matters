@@ -3,7 +3,7 @@ import './Privacy.css';
 
 const Privacy = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="container">
             <div className='row'>
                 <div className="col">
                    <u><h1 id="privHeader">Disclaimer and Privacy Policy</h1></u> 
