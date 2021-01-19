@@ -100,17 +100,14 @@
 #homeStories{
     padding-top: 20px; 
     padding-bottom: 20px; 
+    background-image: linear-gradient(#024C46, #F0F3F3);
     font-size: 30px; 
-    font-weight: bold; 
     text-align: center;
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.1px #024C46;
-    text-decoration: underline;
-    text-decoration-color: #024C46;
-    background-color: #8A9A5B;
+    color: #FFFFFF; 
+    -webkit-text-stroke: 0.6px #FFC300;
     border: solid;
-    border-color: #B0896C; 
-    border-width: 2px; 
+    border-color: #024C46; 
+    border-width: 1.5px; 
 }
 
 .moveCard{
@@ -153,6 +150,7 @@
 
 .user{
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px; 
+    font-size: 16px; 
     padding-top: 20px; 
+    color: #024C46; 
 }
