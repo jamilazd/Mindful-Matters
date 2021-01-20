@@ -9,10 +9,11 @@
 
 #h2{
     color: #F9F9F9;
-    -webkit-text-stroke: 1.4px #000000;
-    font-size: 46px; 
+    -webkit-text-stroke: 1.5px #000000;
+    font-size: 48px; 
     position: relative;
     top: 15px; 
+    
 
 }
 
