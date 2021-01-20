@@ -1,7 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,800&display=swap');
 
 #contain{
-    height: 90em; 
+    height: 100em; 
+}
+
+#emailHead{
+    padding-top: 50px; 
+    font-family: 'Noto Serif', serif;
+    color:#B0896C; 
+    font-size: 22px;
+    margin: auto; 
+    width: 34%;
+}
+
+#emailBox{
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+    width: 35%;
+    margin: auto; 
+}
+
+
+#boxSize{
+    width: 20em; 
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    border-width: 1px; 
+    border-radius: 1.5%; 
+    border-style: solid; 
+    border-color:#024C46;
+    
+}
+
+#button:hover{
+    color: #FFC300; 
+}
+
+#button{
+    margin-left: 2px; 
+    background-color: #024C46;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; 
+
 }
 
 #homeMessage{
@@ -18,12 +58,26 @@
     font-size: 30px; 
     font-weight: bold; 
     color:#024C46; 
-    padding-top: 70px; 
+    padding-top: 40px; 
     padding-bottom: 5px; 
     margin-left: 40px; 
     text-decoration: underline;
     text-decoration-color: #B0896C;
 }
+
+
+#MMLogo2{
+    width: 8%; 
+    float: right; 
+    position: relative;
+    left: 230px; 
+    bottom: 270px;
+}
+
+#MMLogo2:hover{
+    box-shadow: 0 0 4px 2px #B0896C;
+}
+
 
 #homeP{
     font-family: 'Montserrat', sans-serif;
@@ -31,22 +85,11 @@
     font-size: 19px;  
     line-height: 1.6em; 
     margin-left: 40px; 
-    margin-right: 230px;  
+    margin-right: 250px;  
     padding-bottom: 10px; 
 }
 
-#MMLogo4{
-    width: 9%; 
-    float: right; 
-    position: relative;
-    left: 210px; 
-    bottom: 70px;
-}
 
-
-#MMLogo4:hover{
-    box-shadow: 0 0 4px 2px #B0896C;
-}
 
 #homeLink{
     font-family: 'Montserrat', sans-serif;
@@ -59,12 +102,12 @@
 }
 
 #homeLink:hover{
-    color: #FFC300; 
+    color: #B0896C; 
 }
 
 #vidContainer{
     padding-top: 80px; 
-    padding-bottom: 80px; 
+    padding-bottom: 90px; 
 
 }
 
@@ -104,14 +147,17 @@
     font-size: 30px; 
     text-align: center;
     color: #FFFFFF; 
-    -webkit-text-stroke: 0.6px #FFC300;
+    text-decoration: underline;
+    text-decoration-color:#B0896C; 
     border: solid;
     border-color: #024C46; 
     border-width: 1.5px; 
 }
 
 .moveCard{
-    padding-top: 60px; 
+    height: 30em; 
+    padding-top: 40px; 
+    background-color: #F0F1F1;
 }
 
 .card {
@@ -153,4 +199,6 @@
     font-size: 16px; 
     padding-top: 20px; 
     color: #024C46; 
+    text-decoration: underline;
+    text-decoration-color: #FFC300;
 }
