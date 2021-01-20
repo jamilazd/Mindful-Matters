@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div className="container-fluid">
             <div id="explain" className="col">
-               <h3 id="aboutHead">About</h3>
+               <h2 id="aboutHead">About</h2>
                <p id="aboutP">
                   Mindful Matters is on a mission to encourage steps towards better mental wellbeing, by 
                   promoting Mindfulness Meditation. Mindfullness is the process of acknowledging your feelings 
@@ -32,25 +32,7 @@ export default About;
 
 
 
-/* 
 
-<div className="row">
-                <div className="col">
-                    <div className="tagline">
-                      <h2 id="h2">Your Mind Matters </h2>
-                      <br/>
-                        <u>
-                            <i id="italic"> Mindful Matters' mission is to encourage steps towards better mental wellbeing.</i>
-                        </u>
-                    </div>
-               </div>
-            </div>
-
-
-
-
-
-*/ 
 
 
 

@@ -15,6 +15,7 @@ const Footer = () => {
           <img id="footImg" src={logo} alt="Logo"/>
           Mindful Matters
         </h1>
+        <hr />
         <h2 id="footHead">AS FEATURED IN:</h2>
         <img id="guard" className="img-fluid" src={guard} alt="the guardian"></img>
         <img id="hw" className="img-fluid" src={hw} alt="health and wellbeing"></img>
