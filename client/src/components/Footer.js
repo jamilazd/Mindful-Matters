@@ -1,10 +1,7 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom'; 
 import './Footer.css'; 
-import logo from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/logo.png'; 
-import guard from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/guard.png'; 
-import hw from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/hw.png'; 
-import psych from '/Users/jd/Desktop/Mindful-Matters/client/src/assets/psych.png'; 
+
 
 
 const Footer = () => {
@@ -12,14 +9,14 @@ const Footer = () => {
     <footer className="container-fluid">
       <div id="footer" className="col-sm">
         <h1 id="footHead1">
-          <img id="footImg" src={logo} alt="Logo"/>
+          <img id="footImg" src="http://localhost:5000/static/logo.png" alt="Logo"/>
           Mindful Matters
         </h1>
         <hr />
         <h2 id="footHead">AS FEATURED IN:</h2>
-        <img id="guard" className="img-fluid" src={guard} alt="the guardian"></img>
-        <img id="hw" className="img-fluid" src={hw} alt="health and wellbeing"></img>
-        <img id="psych" className="img-fluid" src={psych} alt="psychology today"></img>
+        <img id="guard" className="img-fluid" src="http://localhost:5000/static/guard.png" alt="the guardian"></img>
+        <img id="hw" className="img-fluid" src="http://localhost:5000/static/hw.png" alt="health and wellbeing"></img>
+        <img id="psych" className="img-fluid" src="http://localhost:5000/static/hw.psych" alt="psychology today"></img>
         <nav>
           <Link className="nav-link" id="navPrivacy" to="/Privacy">Privacy</Link>
         </nav>

@@ -168,7 +168,7 @@
 }
 
 .card-title{
-    background-image: url('./Background.png');
+    background-image: url("http://localhost:5000/static/Background.png");
     font-size: 80px; 
     color:#FFFFFF; 
     font-family: 'Fraunces', serif;
