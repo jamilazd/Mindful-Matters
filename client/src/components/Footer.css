@@ -1,65 +1,79 @@
 
 #footer{
-    background-image: linear-gradient(#F0F3F3, #024C46);
+    background-image: url("http://localhost:5000/static/Background.png");
     font-family: 'Noto Serif', serif;
     color:  #024C46; 
     width: 100%; 
-    height: 210px; 
-    padding-top: 5px; 
+    height: 14em; 
+    padding-top: 3px; 
     border-style: solid;
     border-width: 0.2px;
     border-color: #024C46;
 }
 
 #footHead1{
+    padding-top: 5px; 
     font-size: 24px;
-    color: #024C46;  
+    color: #FFFFFF;  
     margin-right: 600px; 
+    text-decoration: underline; 
+    text-decoration-color: #FFFFFF;
     
 }
 
 #footImg{
-    width: 3%; 
+    width: 5%; 
     position: relative;
     right: 5px; 
     bottom: 2px; 
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: #FFFFFF; 
 }
 
 #footHead{
-    font-size: 14px;
-    color:#FFFFFF; 
-    text-decoration: underline; 
-    text-decoration-color: #024C46; 
-
+    margin-left: 5px; 
+    font-size: 15px;
+    color:#FFFFFF;
+    text-decoration: none; 
 }
 
 #hw{
-    width: 5em; 
-    margin-left: 10px; 
+    width: 8em; 
+    margin-left: 5px; 
+
 }
 
 #guard{
-    width: 6em; 
+    width: 8em;
+    margin-left: 20px;  
+
 }
 
 #psych{
-    width: 6em; 
+    width: 8em; 
     margin-left: 15px; 
 }
 
-#copywrite{
-    text-align: center; 
-    font-size: 12px; 
-    color: #FFFFFF; 
-}
 
 #navPrivacy{
-    position: relative;
-    bottom:100px;  
+    position: relative; 
+    bottom: 40px; 
     color:#FFFFFF; 
     text-align: right;
-    font-size: 15px; 
+    font-size: 16px; 
     text-decoration: underline; 
-    text-decoration-color: #024C46;
+    text-decoration-color: #FFFFFF;
    
+}
+
+.hr{
+    border-top: 1px solid #FFFFFF;
+}
+
+#copyright{
+    font-family: 'Montserrat', sans-serif;
+    color:#FFFFFF; 
+    font-size: 11px; 
+    text-align: center; 
 }
