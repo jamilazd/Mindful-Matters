@@ -3,18 +3,18 @@ import { BrowserRouter, Route, } from 'react-router-dom';
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
 import TaglineCard from './components/TaglineCard'; 
-import VideoText from './components/VideoText'; 
+import VideoPage from './pages/VideoPage'; 
 import Home from './pages/Home';
 import starterVideos from './models/starterVideos.json';
-import Video from './pages/Video'; 
+import Video from './components/Video'; 
 import About from './pages/About'; 
 import Privacy from './pages/Privacy'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 
-const App = (Props) => {
+const App = () => {
   
-  const [ videos, setVideo ] = useState(starterVideos); 
+  const [ videos ] = useState(starterVideos); 
   
   return (
     <BrowserRouter>
@@ -26,10 +26,11 @@ const App = (Props) => {
            <Footer />
           </>
         )} />
-        <Route exact path="/Video" render={() => (
+        <Route exact path="/VideoPage" render={() => (
          <>
-           <VideoText />
+           <VideoPage />
            {videos.map((video) => <Video video={video} />)}
+           <Footer />
           </>
         )} />
         <Route exact path="/About" render={() => (
