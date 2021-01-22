@@ -1,13 +1,6 @@
 #explain{
-    background-color: #F0F1F1;
-    border: solid;
-    border-color: #024C46; 
-    border-width: 1px; 
-    position: relative;
     padding-top: 20px; 
-    border-width: 2px; 
-    border-style: solid;  
-    box-shadow: 5px 10px 8px #C1CFCF; 
+   
 }
 
 #aboutHead{
@@ -15,34 +8,24 @@
     font-size: 27px; 
     font-weight: bold; 
     color:#024C46; 
-    padding-top: 20px; 
-    padding-left: 20px; 
+    text-align: left; 
+    margin-left: 20px; 
+    padding-top: 50px; 
     text-decoration: underline; 
     text-decoration-color: #B0896C;
 
 }
 
 #aboutP {
+    padding-top: 10px; 
+    margin-left: 20px; 
+    margin-right: 40px; 
     font-family: 'Montserrat', sans-serif;
     text-align: left; 
     font-size: 18px;  
-    line-height: 1.6em; 
-    padding: 5px 250px 10px 20px; 
+    line-height: 1.6em;
+      
 }
-
-#MMLogo{
-    width: 9%; 
-    float: right; 
-    position: relative;
-    left: 250px; 
-    bottom: 90px;
-}
-
-#MMLogo:hover{
-    box-shadow: 0 0 4px 2px #B0896C;
-}
-
-
 
 #photos { 
     padding-bottom: 300px; 
