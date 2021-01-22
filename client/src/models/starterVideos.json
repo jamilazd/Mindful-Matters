@@ -30,14 +30,14 @@
 
     {   
         "thumbnail":"http://localhost:5000/static/vidImage5.png", 
-        "videoName": "Meditation For Mental Balance and Grounding",
+        "videoName": "Meditation For Mental Balance",
         "description": "This meditation welcomes balance and clarity to your mental self.",
         "videoLink": "https://www.youtube.com/watch?v=x0nZ1ZLephQ&t=2s"
     }, 
 
     {   
         "thumbnail":"http://localhost:5000/static/vidImage6.png",
-        "videoName": "10 Min Guided Meditation For Sleep & Relaxation",
+        "videoName": "10 Min Guided Meditation For Relaxation",
         "description": "Relax and fall asleep fast with this guided meditation for sleep.",
         "videoLink": "https://www.youtube.com/watch?v=bG3AcN-XOrw"
     }
