@@ -1,19 +1,18 @@
 
-
 #vidThumb{
     float: left; 
     position: relative;
     bottom: 40px;
-    margin-left: 50px; 
+    left: 110px; 
     width: 40%;
     height:  300px;
 }
 
 
 #vidDescription{
-    padding-bottom: 220px; 
+    padding-bottom: 210px; 
     margin: auto; 
-    width: 80%;
+    width: 70%;
     height: 10em; 
     background-image: url("http://localhost:5000/static/leaves.png");  
     color: #000000; 
@@ -27,7 +26,7 @@
 }
 
 #vidName{
-    padding-top: 50px; 
+    padding-top: 45px; 
     font-family: 'Noto Serif', serif; 
     font-size: 26px; 
     color: #024C46;
@@ -39,6 +38,6 @@
     padding-top: 10px; 
     font-family: 'Montserrat', sans-serif;
     font-size: 18px; 
-    padding-right: 50px;
+    padding-right: 20px;
 
 }

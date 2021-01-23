@@ -1,5 +1,5 @@
 #container{
-    height: 80em; 
+    height: 95em; 
 }
 
 #priv{
@@ -29,11 +29,14 @@ h2{
     text-decoration-color: #B0896C;
 }
 
+p{
+    padding-top: 5px;  
+}
+
 .policyP{
     font-family:'Montserrat', sans-serif;
     margin-left: 50px; 
     margin-right: 50px; 
     text-align: justify;
-    padding-top: 80px; 
-    padding-bottom: 60px; 
+    padding-top: 100px; 
 }
