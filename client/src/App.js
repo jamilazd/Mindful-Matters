@@ -3,8 +3,8 @@ import { BrowserRouter, Route, } from 'react-router-dom';
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
 import TaglineCard from './components/TaglineCard'; 
-import VideoPage from './pages/VideoPage'; 
 import Home from './pages/Home';
+import VideoPage from './pages/VideoPage'; 
 import starterVideos from './models/starterVideos.json';
 import Video from './components/Video'; 
 import About from './pages/About'; 
@@ -28,6 +28,7 @@ const App = () => {
         )} />
         <Route exact path="/VideoPage" render={() => (
          <>
+           <TaglineCard />
            <VideoPage />
            {videos.map((video) => <Video video={video} />)}
            <Footer />
