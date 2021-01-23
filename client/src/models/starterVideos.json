@@ -3,42 +3,42 @@
     {
         "thumbnail":"http://localhost:5000/static/vidImage1.png",
         "videoName": "5 Minute Meditation You Can Do Anywhere",
-        "description": "In just 5 minutes you can reset your day in a positive way.",
+        "description": "In just 5 minutes, you can reset your day in a positive way. This meditation serves as a gentle introduction to mindfulness, for beginners!",
         "videoLink":"https://www.youtube.com/watch?v=inpok4MKVLM"
     },
 
     {
         "thumbnail": "http://localhost:5000/static/vidImage2.png", 
         "videoName": "Meditation for Relaxation & Centering",
-        "description": "A gentle meditation to relax and center your mind",
+        "description": "A gentle meditation to relax your mind and release stress. This can be practiced anywhere and requires little space. A good way to start or end your day.",
         "videoLink": "https://www.youtube.com/watch?v=x-Ft-Y3trWY"
     },
 
     { 
         "thumbnail":"http://localhost:5000/static/vidImage3.png", 
         "videoName": "10 Minute Meditation For Stress",
-        "description": "If you're feeling stressed or overwhelmed, listen to this guided meditation to re-center yourself.",
+        "description": "If you're feeling stressed or overwhelmed, listen to this guided meditation to re-center yourself. Regain a moment of calm when life gets overwhelming.",
         "videoLink": "https://www.youtube.com/watch?v=z6X5oEIg6Ak"
     },
 
     {   
         "thumbnail":"http://localhost:5000/static/vidImage4.png",
         "videoName": "Meditation for Anxiety",
-        "description": "This video guides you through a simple at home meditation to help provide relief from anxiety.",
+        "description": "This video guides you through a simple at home meditation to help provide relief from anxiety. Easy to follow for beginners!",
         "videoLink": "https://www.youtube.com/watch?v=4pLUleLdwY4"
     }, 
 
     {   
         "thumbnail":"http://localhost:5000/static/vidImage5.png", 
         "videoName": "Meditation For Mental Balance",
-        "description": "This meditation welcomes balance and clarity to your mental self.",
+        "description": "This meditation welcomes balance and clarity to your mental and emotional self. Practice regularly to connect brain to body for mental health and wellbeing.",
         "videoLink": "https://www.youtube.com/watch?v=x0nZ1ZLephQ&t=2s"
     }, 
 
     {   
         "thumbnail":"http://localhost:5000/static/vidImage6.png",
         "videoName": "10 Min Guided Meditation For Relaxation",
-        "description": "Relax and fall asleep fast with this guided meditation for sleep.",
+        "description": "Relax and fall asleep fast with this guided meditation for sleep. Soothing rain sounds will help your mind relax and help you fall into a deeper and more rejuvenated sleep.",
         "videoLink": "https://www.youtube.com/watch?v=bG3AcN-XOrw"
     }
 
