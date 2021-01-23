@@ -28,12 +28,10 @@ const Home = () => {
                           <ReactPlayer url="https://www.youtube.com/watch?v=APX33ncDER0"/>  
                        </div>   
                   </div>  
-                  <div>
-                      <hr className="hrStyle"/>
-                      <h2 id="homeStories">
-                          Mindful Matters Stories 
-                      </h2>
-                  </div>  
+                  <hr />
+                  <h2 id="homeStories">
+                        Mindful Matters Stories 
+                  </h2>
                </div>
             </div>
             <div className="row">
@@ -88,14 +86,3 @@ export default Home;
 
    
         
-    
-/*
-
-<input id="formSize" className="form-control form-control-md" type="text" placeholder="Email Address" type="submit" value="Submit">
-                           
-                            </input>
-
-
-
-
-*/
