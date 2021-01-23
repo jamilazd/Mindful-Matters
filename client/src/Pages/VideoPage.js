@@ -10,7 +10,16 @@ const VideoPage = () => {
           Mindfulness meditation can help reduce stress and relax the mind.
           Below is a carefully curated selection of mindfulness videos you can watch now. 
         </p>
-      </div> 
+        <form>
+          <h3 id="formHead">How are you feeling today?</h3>
+          <input className="hide" type="checkbox" title="Happy" name="happy" id="happy" />
+          <label for="happy" className="option-happy">Happy</label>
+          <input className="hide" type="checkbox" title="Meh" name="meh" id="meh" />
+          <label for="meh" className="option-meh">Meh</label>
+          <input className="hide" type="checkbox" title="Sad" name="sad" id="sad" />
+          <label for="sad" className="option-sad">Sad</label>
+        </form>
+      </div>
    </div>
   ); 
 }
