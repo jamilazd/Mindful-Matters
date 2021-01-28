@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,800&display=swap');
 
 #contain{
-    height: 95em; 
+    height: 100em; 
 }
 
 #pBox{
@@ -50,25 +50,25 @@
 #headVid{
     padding-bottom: 30px; 
     font-family: 'Noto Serif', serif;
-    font-size: 26px;  
+    font-size: 28px;  
     color:#024C46; 
-    margin-left: 20px; 
+    text-align: center;  
     text-decoration: underline;
     text-decoration-color: #B0896C;
 }
 
 #vidContainer{
-    padding-top: 60px; 
-    padding-bottom: 90px; 
+    padding-top: 40px; 
+    padding-bottom: 70px; 
 
 }
 
 #videoPlayer{ 
     position: relative;
     top: 0;
-    width: 50%;
-    height: 70%;
-    margin-left: 10px;
+    width: 70%;
+    height: 30em;
+    margin: auto;
     border: solid;
     border-color: #B0896C; 
     border-width: 3px; 
