@@ -16,19 +16,17 @@ const Home = () => {
                            It all starts with just a few minutes a day to begin reducing stress and building
                            mental resilience. Mindfulness really is for everyone! You can try one of our mindfulness videos 
                            and start learning how to incorporate mindfulness practice into your life. 
-                           <nav  id="navLink">
-                              <Link id="Link"  to="/VideoPage">Start Your Journey with Mindful Matters</Link>
-                           </nav>
                        </p>
-                       <hr className="hrStyle"/>
+                       <nav  id="navLink">
+                          <Link id="Link"  to="/VideoPage">Start Your Journey with Mindful Matters</Link>
+                        </nav>
                     </div>
                     <div id="vidContainer">
-                        <h2 id="headVid">What is Mindfulness?</h2>
                        <div className="embed-responsive embed-responsive" id="videoPlayer">
                           <ReactPlayer url="https://www.youtube.com/watch?v=APX33ncDER0"/>  
                        </div>   
                   </div>  
-                  <hr />
+                  <hr className="hrStyle" />
                   <h2 id="homeStories">
                         Mindful Matters Stories 
                   </h2>
@@ -39,7 +37,7 @@ const Home = () => {
                     <div className="moveCard">
                        <div className="card" >
                            <div className="card-body">
-                              <h1 className="card-title">"</h1>
+                              <h1 className="card-title">“</h1>
                                <p className="card-text">
                                   Mindful Matters really helped me to kickstart my mental wellbeing journey.
                               </p> 
@@ -52,7 +50,7 @@ const Home = () => {
                    <div className="moveCard">
                        <div className="card">
                            <div className="card-body">
-                              <h1 className="card-title">"</h1>
+                              <h1 className="card-title">“</h1>
                                <p className="card-text">
                                   Since I started watching your mindfulness videos, I've felt less stressed in my day to day.
                                </p>  
@@ -65,7 +63,7 @@ const Home = () => {
                     <div className="moveCard">
                        <div className="card">
                            <div className="card-body">
-                              <h1 className="card-title">"</h1>
+                              <h1 className="card-title">“</h1>
                                <p className="card-text">
                                   I learnt a lot about Mindfulness and how I can use it to reduce anxiety. 
                               </p>

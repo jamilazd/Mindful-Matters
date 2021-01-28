@@ -20,7 +20,6 @@ mongoose.connect(
   }
 );
 
-
 app.use(bodyParser.json());
 
 // IMPORT YOUR ROUTES
