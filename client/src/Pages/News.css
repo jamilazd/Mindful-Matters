@@ -1,0 +1,31 @@
+#newsBox{
+    padding-top: 10px; 
+    height: 80em; 
+    background-color: #F0F3F3;
+    
+}
+
+#newsH{
+    font-family: 'Noto Serif', serif;
+    font-size: 28px; 
+    font-weight: bold; 
+    color:#024C46; 
+    text-align: left; 
+    margin-left: 20px; 
+    padding-top: 50px; 
+    text-decoration: underline; 
+    text-decoration-color: #B0896C;
+    
+}
+
+#newsP {
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+    margin-left: 20px; 
+    margin-right: 40px; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: left; 
+    font-size: 18px;  
+    line-height: 1.7em;
+      
+}

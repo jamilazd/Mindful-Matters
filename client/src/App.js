@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer'; 
 import TaglineCard from './components/TaglineCard'; 
 import Home from './pages/Home';
+import News from './pages/News'; 
 import VideoPage from './pages/VideoPage'; 
 import starterVideos from './models/starterVideos.json';
 import Video from './components/Video'; 
@@ -24,6 +25,13 @@ const App = () => {
            <TaglineCard />
            <Home />
            <Footer />
+          </>
+        )} />
+        <Route exact path="/News" render={() => (
+          <>
+            <TaglineCard />
+            <News/>
+            <Footer />
           </>
         )} />
         <Route exact path="/VideoPage" render={() => (
