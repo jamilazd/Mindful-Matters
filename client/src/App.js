@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer'; 
 import TaglineCard from './components/TaglineCard'; 
 import Home from './pages/Home';
-import News from './pages/News'; 
+import News from './pages/News';
 import VideoPage from './pages/VideoPage'; 
 import starterVideos from './models/starterVideos.json';
 import Video from './components/Video'; 
@@ -16,6 +16,16 @@ import './App.css';
 const App = () => {
   
   const [ videos ] = useState(starterVideos); 
+  var url = 'http://newsapi.org/v2/everything?' + 
+    'q=Mental&Wellbeing' + 
+    'from=2021-01-28&' +
+    'sortBy=popularity&' +
+    'apiKey=4128b5e5ed044860bfb6026030687bd2'; 
+    var req = new Request(url); 
+    fetch(req)
+    .then(function(response) {
+      console.log(response.json()); 
+  }); 
   
   return (
     <BrowserRouter>
