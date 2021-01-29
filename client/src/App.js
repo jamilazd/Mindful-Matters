@@ -9,6 +9,7 @@ import VideoPage from './pages/VideoPage';
 import starterVideos from './models/starterVideos.json';
 import Video from './components/Video'; 
 import About from './pages/About'; 
+import Slideshow from './pages/Slideshow'; 
 import Privacy from './pages/Privacy'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
@@ -56,6 +57,7 @@ const App = () => {
           <>
             <TaglineCard />
             <About/>
+            <Slideshow />
             <Footer />
           </>
         )} />
