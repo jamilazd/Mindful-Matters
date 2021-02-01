@@ -1,3 +1,5 @@
+![woman meditating](https://img.freepik.com/free-photo/attractive-black-woman-bed-meditating_153437-2932.jpg?size=626&ext=jpg)
+
 # Mindful Matters 
 
 This web application was created as a final project on the Black Codher Full-Stack Bootcamp. 
