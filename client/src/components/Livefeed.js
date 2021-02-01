@@ -1,9 +1,11 @@
 import React from 'react'; 
 
 const Livefeed = () => {
-    return(
-        <div>
+    
 
+    return(
+        <div className="container-fluid">
+            
         </div>
     );
 }

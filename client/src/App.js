@@ -15,9 +15,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 
 const App = () => {
+
+  const [ videos ] = useState(starterVideos);
+  //const [ articledata, setArticleData ] = useState({}); 
   
-  const [ videos ] = useState(starterVideos); 
-  var url = 'http://newsapi.org/v2/everything?' + 
+  const url = 'http://newsapi.org/v2/everything?' + 
     'q=Mental&Wellbeing' + 
     'from=2021-01-28&' +
     'sortBy=popularity&' +
@@ -27,7 +29,7 @@ const App = () => {
     .then(function(response) {
       console.log(response.json()); 
   }); 
-  
+
   return (
     <BrowserRouter>
       <Header />
