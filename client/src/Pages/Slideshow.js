@@ -6,24 +6,21 @@ import './Slideshow.css';
 const slideImages = [
     "http://localhost:5000/static/med.jpg",
     "http://localhost:5000/static/woman2.jpg",
-    "http://localhost:5000/static/woman3.png"
+    "http://localhost:5000/static/woman3.jpg"
   ];
   
   const Slideshow = () => {
       return (
-        <div>
+        <div id="slideshow" className="container-fluid">
           <Slide easing="ease">
             <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-              </div>
+              <div style={{'backgroundImage': `url(${slideImages[0]})`}}></div>
             </div>
             <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              </div>
+              <div style={{'backgroundImage': `url(${slideImages[1]})`}}></div>
             </div>
             <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              </div>
+              <div style={{'backgroundImage': `url(${slideImages[2]})`}}></div>
             </div>
           </Slide>
         </div>

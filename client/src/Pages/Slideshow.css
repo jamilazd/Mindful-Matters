@@ -1,11 +1,20 @@
 @import "react-slideshow-image/dist/styles.css"; 
 
+#slideshow{
+    height: 55em; 
+}
+
 .each-slide > div {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 350px;
+    height: 650px;
+    width: 100%; 
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #024C46;
+
 }
 
 
