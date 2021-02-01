@@ -1,6 +1,8 @@
 @import "react-slideshow-image/dist/styles.css"; 
 
-#slideshow{
+#background{
+    background-color: #F0F3F3;
+    padding-top: 40px;
     height: 55em; 
 }
 

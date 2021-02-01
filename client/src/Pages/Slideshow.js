@@ -11,18 +11,20 @@ const slideImages = [
   
   const Slideshow = () => {
       return (
-        <div id="slideshow" className="container-fluid">
-          <Slide easing="ease">
-            <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[0]})`}}></div>
-            </div>
-            <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[1]})`}}></div>
-            </div>
-            <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[2]})`}}></div>
-            </div>
-          </Slide>
+        <div className="container-fluid">
+          <div id="background" className="col">
+            <Slide easing="ease">
+              <div className="each-slide">
+                <div style={{'backgroundImage': `url(${slideImages[0]})`}}></div>
+              </div>
+              <div className="each-slide">
+                <div style={{'backgroundImage': `url(${slideImages[1]})`}}></div>
+              </div>
+              <div className="each-slide">
+                <div style={{'backgroundImage': `url(${slideImages[2]})`}}></div>
+              </div>
+            </Slide>
+          </div>
         </div>
       )
   };

@@ -5,7 +5,7 @@ const Video = (props) => {
 
   const { thumbnail, videoLink, videoName, description } = props.video; 
   return(
-    <div className="container-fluid">
+    <div id="back" className="container-fluid">
       <div className="row" >
         <div className="col">
           <img id="vidThumb" className="img-fluid" src={thumbnail} alt="thumbnailImage" />
