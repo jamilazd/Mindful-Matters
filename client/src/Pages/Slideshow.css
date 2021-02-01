@@ -2,8 +2,8 @@
 
 #background{
     background-color: #F0F3F3;
-    padding-top: 40px;
-    height: 55em; 
+    padding-top: 80px;
+
 }
 
 .each-slide > div {
@@ -13,9 +13,9 @@
     background-size: cover;
     height: 650px;
     width: 100%; 
-    border-style: solid;
-    border-width: 2px; 
-    border-color: #024C46;
+    border-width: 1px; 
+    border-color:#024C46; 
+    border-style: solid; 
 
 }
 

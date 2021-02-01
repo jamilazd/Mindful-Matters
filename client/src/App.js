@@ -57,9 +57,8 @@ const App = () => {
         )} />
         <Route exact path="/About" render={() => (
           <>
-            <TaglineCard />
-            <About/>
             <Slideshow />
+            <About/>
             <Footer />
           </>
         )} />
