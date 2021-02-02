@@ -21,7 +21,7 @@
     border-width: 1.5px;
     border-color: #024C46;
     border-bottom: 1px solid rgb (209, 209, 209); 
-    box-shadow: 2px 5px 6px #888888;  
+    box-shadow: 8px 12px 8px #C1CFCF; 
 
 }
 
@@ -29,9 +29,16 @@
     padding-top: 45px; 
     font-family: 'Noto Serif', serif; 
     font-size: 26px; 
+    color: #B0896C;
+    text-decoration: underline;
+    text-decoration-color: #FFC300;
+}
+
+#vidName:hover{
     color: #024C46;
     text-decoration: underline;
-    text-decoration-color: #B0896C;
+    text-decoration-color: #678383;
+  
 }
 
 #description{

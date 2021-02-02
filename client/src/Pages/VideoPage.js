@@ -3,12 +3,12 @@ import './VideoPage.css';
 
 const VideoPage = () => {
   return (
-    <div id="textContainer" className="container-fluid">
+    <div id="textContainer" >
       <div id="textBackground" className="col">
         <h1 id="videoHead">Stop for a moment...</h1>
         <p id="videoP">
-          Mindfulness meditation can help reduce stress and relax the mind.
-          Below is a carefully curated selection of mindfulness videos you can watch now. 
+          Mindfulness can reduce stress and relax the mind.
+          Below is a carefully curated selection of videos you can watch now! 
         </p>
         <form>
           <h3 id="formHead">How are you feeling today?</h3>
