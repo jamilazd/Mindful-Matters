@@ -9,7 +9,7 @@ import VideoPage from './pages/VideoPage';
 import starterVideos from './models/starterVideos.json';
 import Video from './components/Video'; 
 import About from './pages/About'; 
-import Slideshow from './pages/Slideshow'; 
+import Slideshow from './components/Slideshow'; 
 import Privacy from './pages/Privacy'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
@@ -57,6 +57,7 @@ const App = () => {
         )} />
         <Route exact path="/About" render={() => (
           <>
+            <TaglineCard />
             <Slideshow />
             <About/>
             <Footer />
