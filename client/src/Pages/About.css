@@ -1,5 +1,5 @@
 #explain{
-    height: 30em; 
+    height: 28em; 
     background-color: #F0F3F3;
    
     
@@ -11,7 +11,7 @@
     font-weight: bold; 
     color:#024C46; 
     text-align: left; 
-    margin-left: 20px; 
+    margin-left: 40px; 
     padding-top: 50px; 
     text-decoration: underline; 
     text-decoration-color: #B0896C;
@@ -21,8 +21,8 @@
 #aboutP {
     padding-top: 10px; 
     padding-bottom: 20px; 
-    margin-left: 20px; 
-    margin-right: 20px; 
+    margin-left: 40px; 
+    margin-right: 60px; 
     font-family: 'Montserrat', sans-serif;
     text-align: justify; 
     font-size: 18px;  
