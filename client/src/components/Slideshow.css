@@ -1,0 +1,37 @@
+@import "react-slideshow-image/dist/styles.css"; 
+
+#background{
+    background-color: #F0F3F3;
+    padding-top: 90px;
+
+}
+
+#missionStatement{
+    font-family: 'Noto Serif', serif;
+    font-size: 30px; 
+    font-weight: bold; 
+    text-align: center;
+    font-style: italic;
+    color:#024C46;
+
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 650px;
+    width: 100%; 
+    border-width: 3px; 
+    border-color:#024C46; 
+    border-style: solid; 
+
+}
+
+
+.each-slide span {
+    padding: 20px;
+    background: #efefef;
+    text-align: center;
+}
