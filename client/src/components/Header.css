@@ -11,6 +11,9 @@
 #navStyle {
     color: #FFFFFF; 
     font-family: 'Noto Serif', serif;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color:#FFFFFF;
 }
 
 #navStyle:hover {
@@ -23,9 +26,10 @@
 
 #navBrand {
     font-size: 28px; 
+    margin-right: 25px; 
     font-family: 'Noto Serif', serif;
     color: #FFFFFF; 
-    -webkit-text-stroke: 0.8px #024C46;
+    -webkit-text-stroke: 0.7px #B0896C;
 }
  
 
