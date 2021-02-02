@@ -7,7 +7,7 @@ import ReactPlayer from "react-player";
 
 const Home = () => {
     return (
-        <div className="container-fluid" id="contain">
+        <div id="contain">
             <div className="row">
                 <div className="col">
                     <div id="pBox">
@@ -15,7 +15,7 @@ const Home = () => {
                        <p id="homeP">
                            It all starts with just a few minutes a day to begin reducing stress and building
                            mental resilience. Mindfulness really is for everyone! You can try one of our mindfulness videos 
-                           and start learning how to incorporate mindfulness practice into your life. 
+                           and start learning how to incorporate mindfulness into your life. 
                        </p>
                        <nav  id="navLink">
                           <Link id="Link"  to="/VideoPage">Start Your Journey with Mindful Matters</Link>
