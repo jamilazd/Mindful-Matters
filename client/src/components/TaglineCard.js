@@ -4,7 +4,7 @@ import './TaglineCard.css';
 
 const TaglineCard = () => {
     return (
-        <div className="container-fluid">
+        <div>
             <div id="card" className="row">
                 <div className="col">
                     <div className="tagline">
