@@ -13,7 +13,6 @@ const slideImages = [
       return (
         <div >
           <div id="background" className="col">
-            <p id="missionStatement">Our mission is to help you take steps towards better mental wellbeing</p>
             <Slide easing="ease">
               <div className="each-slide">
                 <div style={{'backgroundImage': `url(${slideImages[0]})`}}></div>

@@ -1,18 +1,9 @@
 @import "react-slideshow-image/dist/styles.css"; 
 
 #background{
-    background-color: #F0F3F3;
-    padding-top: 90px;
-
-}
-
-#missionStatement{
-    font-family: 'Noto Serif', serif;
-    font-size: 30px; 
-    font-weight: bold; 
-    text-align: center;
-    font-style: italic;
-    color:#024C46;
+    background-image: url("http://localhost:5000/static/stone.png");  
+    height: 60em; 
+    padding-top: 10px;
 
 }
 
