@@ -1,7 +1,7 @@
 #newsBox{
     padding-top: 10px; 
     height: 60em;
-    background-color: #F0F3F3;
+    background-image: url("http://localhost:5000/static/stone.png"); 
     
 }
 
