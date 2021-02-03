@@ -14,7 +14,7 @@
     margin: auto; 
     width: 70%;
     height: 10em; 
-    background-image: url("http://localhost:5000/static/leaves.png");  
+    background-image: url("http://localhost:5000/static/stone.png");  
     color: #000000; 
     border-radius: 4px;
     border-style: solid;
@@ -29,15 +29,15 @@
     padding-top: 45px; 
     font-family: 'Noto Serif', serif; 
     font-size: 26px; 
-    color: #B0896C;
-    text-decoration: underline;
-    text-decoration-color: #FFC300;
-}
-
-#vidName:hover{
     color: #024C46;
     text-decoration: underline;
     text-decoration-color: #678383;
+}
+
+#vidName:hover{
+    color: #B0896C;
+    text-decoration: underline;
+    text-decoration-color: #FFC300;
   
 }
 
