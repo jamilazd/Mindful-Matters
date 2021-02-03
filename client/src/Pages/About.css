@@ -1,8 +1,6 @@
 #explain{
-    height: 28em; 
-    background-color: #F0F3F3;
-   
-    
+    background-image: url("http://localhost:5000/static/stone.png");   
+    height: 20em; 
 }
 
 #aboutHead{
@@ -12,7 +10,7 @@
     color:#024C46; 
     text-align: left; 
     margin-left: 40px; 
-    padding-top: 50px; 
+    padding-top: 100px; 
     text-decoration: underline; 
     text-decoration-color: #B0896C;
 
@@ -26,7 +24,7 @@
     font-family: 'Montserrat', sans-serif;
     text-align: justify; 
     font-size: 18px;  
-    line-height: 1.7em;
+    line-height: 1.8em;
       
 }
 
