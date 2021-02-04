@@ -32,11 +32,11 @@ form {
   #formHead{
     padding-bottom: 10px; 
     font-family: 'Noto Serif', serif;
-    font-size: 26px;  
-    color:#B0896C; 
+    font-size: 28px;  
+    color:#024C46; 
     text-align: center;  
     text-decoration: underline;
-    text-decoration-color: #FFC300;
+    text-decoration-color: #024C46;
   }
   
   .hide {
@@ -58,7 +58,7 @@ form {
     line-height: 40px;
     border-style: solid;
     border-width: 1px; 
-    border-color:#024C46;
+    border-color:#ababab;
     border-radius: 2px;
     box-shadow: 5px 10px 8px #C1CFCF; 
   }
