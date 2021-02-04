@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html {
-  --scrollbarBG: #CFD8DC;
-  --thumbBG: #698484;
+  --scrollbarBG: #CFD8DC; 
+  --thumbBG: #B0896C;
 }
 
 
