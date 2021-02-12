@@ -10,7 +10,7 @@
 
 
 #vidDescription{
-    padding-bottom: 210px; 
+    padding-bottom: 225px; 
     margin: auto; 
     width: 70%;
     height: 10em; 
@@ -43,8 +43,9 @@
 
 #description{
     padding-top: 10px; 
+    text-align: justify;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px; 
-    padding-right: 20px;
+    padding-right: 70px;
 
 }

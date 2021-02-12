@@ -24,21 +24,21 @@
     {   
         "thumbnail":"http://localhost:5000/static/vidImage4.png",
         "videoName": "Meditation for Anxiety",
-        "description": "This video guides you through a simple at home meditation to help provide relief from anxiety. Easy to follow for beginners!",
+        "description": "This video guides you through a simple at home meditation to help provide relief from anxiety. This video is easy to follow for beginners!",
         "videoLink": "https://www.youtube.com/watch?v=4pLUleLdwY4"
     }, 
 
     {   
         "thumbnail":"http://localhost:5000/static/vidImage5.png", 
         "videoName": "Meditation For Mental Balance",
-        "description": "This meditation welcomes balance and clarity to your mental and emotional self. Practice regularly to connect brain to body for mental health and wellbeing.",
+        "description": "This meditation welcomes balance and clarity to your mental and emotional self. Practice this regularly to connect your brain to body for mental health and wellbeing.",
         "videoLink": "https://www.youtube.com/watch?v=x0nZ1ZLephQ&t=2s"
     }, 
 
     {   
         "thumbnail":"http://localhost:5000/static/vidImage6.png",
         "videoName": "10 Min Guided Meditation For Relaxation",
-        "description": "Relax and fall asleep fast with this guided meditation for sleep. Soothing rain sounds will help your mind relax and help you fall into a deeper and more rejuvenated sleep.",
+        "description": "Relax and fall asleep fast with this guided meditation for sleep. Soothing rain sounds will help your mind relax and can help you fall into a deeper and more rejuvenated sleep.",
         "videoLink": "https://www.youtube.com/watch?v=bG3AcN-XOrw"
     }
 
