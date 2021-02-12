@@ -10,10 +10,10 @@
 }
 
 #footHead1{
-    padding-top: 4px; 
-    padding-bottom: 20px; 
+    padding-bottom: 25px; 
     font-size: 24px;
     color: #FFFFFF;  
+    -webkit-text-stroke:  #B0896C 0.6px; 
     
 }
 
