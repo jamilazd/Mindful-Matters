@@ -2,7 +2,7 @@
 
 #background{
     background-image: url("http://localhost:5000/static/stone.png");  
-    height: 60em; 
+    height: 65em; 
     padding-top: 10px;
 
 }
@@ -26,8 +26,8 @@
 }
 
 #aboutP {
-    padding-top: 50px; 
-    padding-bottom: 20px; 
+    padding-top: 80px; 
+    padding-bottom: 40px; 
     margin-left: 30px; 
     margin-right: 50px; 
     font-family: 'Montserrat', sans-serif;
