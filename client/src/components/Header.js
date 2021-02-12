@@ -10,6 +10,7 @@ const Header = () => {
          <div className="row">
           <div className="col">
             <ul id="nav" className="nav nav-tabs nav justify-content-end navbar navbar-expand-lg navbar-light"> 
+              <img id="navImg" src="http://localhost:5000/static/logo.png" alt="Logo"/>
               <nav id="navBrand" className="navbar-brand">
                 Mindful Matters
               </nav>

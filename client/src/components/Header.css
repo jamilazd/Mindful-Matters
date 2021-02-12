@@ -15,22 +15,28 @@
 }
 
 #navStyle:hover {
-    color: #B0896C; 
+    color: #FFC300; 
     border-style: solid;
     border-width: 0.2px;
-    border-color:#FFC300;
+    border-color:#B0896C;
 }
 
 
 #navBrand {
-    font-size: 24px; 
+    font-size: 25px; 
     margin-right: 30px; 
     font-family: 'Noto Serif', serif;
     color: #FFFFFF;
-    -webkit-text-stroke:  #B0896C 0.6px; 
-
+    -webkit-text-stroke:#B0896C 0.8px; 
 }
  
+#navImg{
+    width: 25px; 
+    margin-right: 10px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: #B0896C;
+}
 
 #head{
     padding-top: 2px; 
