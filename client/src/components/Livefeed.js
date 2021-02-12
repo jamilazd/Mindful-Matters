@@ -3,7 +3,9 @@ import './Livefeed.css';
 
 const Livefeed = () => {
     return(
-        <div className="container-fluid">
+        <div id="livefeedContain">
+
+
             
         </div>
     );
