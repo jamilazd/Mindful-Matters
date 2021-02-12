@@ -80,13 +80,14 @@
 
 
 #h2Stories{
-    font-size: 26px; 
+    font-size: 32px; 
     text-align: center;
+    font-weight: bold;
     padding-top: 30px;  
     padding-bottom: 10px;  
     color: #024C46; 
-    text-decoration: underline;
-    text-decoration-color: #024C46;
+    text-decoration: none;
+
 }
 
 .moveCard{
