@@ -1,30 +1,17 @@
 #explain{
     background-image: url("http://localhost:5000/static/stone.png");   
-    height: 20em; 
+    height: 19em; 
 }
 
 #aboutHead{
+    padding-top: 120px; 
     font-family: 'Noto Serif', serif;
-    font-size: 32px; 
+    font-size: 60px; 
     font-weight: bold; 
-    color:#024C46; 
-    text-align: left; 
-    margin-left: 40px; 
-    padding-top: 50px; 
+    color:#B0896C; 
+    text-align: center;
     text-decoration: none;
 
-}
-
-#aboutP {
-    padding-top: 10px; 
-    padding-bottom: 20px; 
-    margin-left: 40px; 
-    margin-right: 60px; 
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify; 
-    font-size: 18px;  
-    line-height: 1.8em;
-      
 }
 
 #photos { 
@@ -32,33 +19,6 @@
     padding-top: 120px; 
 }
 
-/*
 
-#woman1 {
-    width: 25%;
-    float: left;
-    border: solid;
-    border-color: #024C46; 
-    border-width: 1px; 
-}
-
-#woman2 {
-    width: 44%;
-    margin-right: auto;
-    margin-left: 30px; 
-    border: solid;
-    border-color: #024C46; 
-    border-width: 1px;  
-}
-
-
-#woman3 {
-    width: 26%;
-    float: right; 
-    border: solid;
-    border-color: #024C46; 
-    border-width: 1px; 
-}
-*/ 
 
 

@@ -24,6 +24,13 @@ const slideImages = [
                 <div style={{'backgroundImage': `url(${slideImages[2]})`}}></div>
               </div>
             </Slide>
+            <p id="aboutP">
+              Mindful Matters is on a mission to encourage steps towards better mental wellbeing, by 
+              promoting mindfulness meditation. Mindfullness is the process of acknowledging your feelings 
+              in the moment, without interruption or judgement. You can use Mindful Matters to learn the 
+              basics of mindfulness practice, watch beginner friendly mindfulness meditation videos 
+              and catch up on the latest mental wellbeing news from across the UK. 
+            </p> 
           </div>
         </div>
       )
