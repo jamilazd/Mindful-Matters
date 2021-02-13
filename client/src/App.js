@@ -17,7 +17,7 @@ import './App.css';
 const App = () => {
 
   const [ videos ] = useState(starterVideos);
-  //const [ articledata, setArticleData ] = useState({}); 
+  //const [ livefeedData, setLivefeedData ] = useState({}); 
   
   const url = 'http://newsapi.org/v2/everything?' + 
     'q=Mental&Wellbeing' + 
