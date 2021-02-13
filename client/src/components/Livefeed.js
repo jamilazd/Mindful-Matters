@@ -2,7 +2,7 @@ import React from 'react';
 import './Livefeed.css'; 
 
 const Livefeed = (props) => {
-    //const { title, author, description } = props.livefeed
+    //const {  articles: { title, author, description } } = props.livefeed
     return(
         <div id="livefeedContain">
           
