@@ -2,20 +2,23 @@ import React from 'react';
 import './Livefeed.css'; 
 
 const Livefeed = (props) => {
-    //const {  articles: { title, author, description } } = props.livefeed
-    return(
-        <div id="livefeedContain">
-          
-        </div>
-    );
+  return(
+    <div>
+
+    </div>
+  ); 
 }
+
 
 export default Livefeed; 
 
 /*
-
-  <h1>{title}</h1>
-  <h2>{author}</h2>
-  <p>{description}</p>
+  const { author, description } = props.livefeed; 
+  return(
+    <div>
+    <h1>{author}</h1>
+    <p>{description}</p>
+    </div>
+  );
 
 */ 
