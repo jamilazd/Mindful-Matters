@@ -7,7 +7,9 @@
 
 .topBox{
     height: 20em;  
-    background-image: url("http://localhost:5000/static/stone.png");  
+    background-image: url("http://localhost:5000/static/stone.png"); 
+    border-bottom: 1px solid rgb (209, 209, 209); 
+    box-shadow: 4px 8px 4px #C1CFCF;  
 }
 
 #headHome{ 

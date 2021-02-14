@@ -3,7 +3,6 @@
 #background{
     background-image: url("http://localhost:5000/static/stone.png");  
     height: 65em; 
-    padding-top: 10px;
 
 }
 
@@ -23,6 +22,7 @@
     padding: 20px;
     background: #efefef;
     text-align: center;
+
 }
 
 #aboutP {
