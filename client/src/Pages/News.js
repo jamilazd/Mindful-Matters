@@ -5,7 +5,7 @@ const News = () => {
     return (
         <div>
             <div id="newsBox" className="col">
-              <h1 id="headHome">Latest News</h1>   
+              <h1 id="headHome">Latest News</h1>  
             </div>
         </div>
     ); 
