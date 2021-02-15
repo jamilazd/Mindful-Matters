@@ -11,7 +11,7 @@ const Home = () => {
             <div className="row">
                 <div className="col">
                     <div className="topBox">
-                       <h1 id="headHome">Be Kind to Yourself</h1>
+                       <h1 id="headHome">Your Mind Matters</h1>
                     </div>
                     <div id="pBox">
                         <p id="homeP">
