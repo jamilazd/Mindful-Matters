@@ -1,24 +1,21 @@
 import React from 'react'; 
 import './Livefeed.css'; 
 
-const Livefeed = (props) => {
+
+const Livefeed = ( ) => {
   return(
-    <div>
-
+    <div className="container">
+ 
     </div>
-  ); 
+  );
 }
-
 
 export default Livefeed; 
 
 /*
-  const { author, description } = props.livefeed; 
-  return(
-    <div>
-    <h1>{author}</h1>
-    <p>{description}</p>
-    </div>
-  );
+const { volumeInfo: { title, authors, description, imageLinks: { thumbnail } } } = props.livefeed; 
+<img className="row" src={thumbnail} alt="book cover"/>
+<h3 className="row" id="bookTitle">{title} - {authors.length === 1 ? authors[0] : authors.join(', ') }</h3>
+<p className="row">{description}</p>
 
-*/ 
+*/

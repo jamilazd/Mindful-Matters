@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { Component, useState } from 'react'; 
 import { BrowserRouter, Route, } from 'react-router-dom';
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
@@ -17,9 +17,17 @@ import './App.css';
 const App = () => {
 
   const [ videos ] = useState(starterVideos);
-  //const [ data ] = useState('http://newsapi.org/v2/everything?'); 
+  
+  const url = 'https://www.googleapis.com/books/v1/volumes?q=title:${mindfulness}&filter=partial&projection=lite'; 
+  var req = new Request(url); 
+    fetch(req)
+    .then(function(response) {
+    console.log(response.json());  
+    } );
+     
 
-  const url = 'http://newsapi.org/v2/everything?' + 
+    /*
+    const url = 'http://newsapi.org/v2/everything?' + 
     'q=Mental&Wellbeing' + 
     'from=2021-01-28&' +
     'sortBy=popularity&' +
@@ -28,7 +36,9 @@ const App = () => {
     fetch(req)
     .then(function(response) {
       console.log(response.json()); 
-  } ); 
+    } ); 
+   */ 
+  
 
 
   return (
@@ -44,7 +54,7 @@ const App = () => {
         <Route exact path="/News" render={() => (
           <>
             <TaglineCard />
-            <News/>
+            <News />
             <Livefeed />
             <Footer />
           </>
