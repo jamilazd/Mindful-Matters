@@ -1,14 +1,14 @@
-import React, { Component, useState } from 'react'; 
+import React, { useState } from 'react'; 
 import { BrowserRouter, Route, } from 'react-router-dom';
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
 import TaglineCard from './components/TaglineCard'; 
 import Home from './pages/Home';
-import News from './pages/News';
-import Livefeed from './components/Livefeed'; 
 import VideoPage from './pages/VideoPage'; 
 import starterVideos from './models/starterVideos.json';
 import Video from './components/Video'; 
+import Playlist from './pages/Playlist'; 
+import RemoveFunction from './components/RemoveFunction';  
 import About from './pages/About'; 
 import Slideshow from './components/Slideshow'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,16 +17,17 @@ import './App.css';
 const App = () => {
 
   const [ videos ] = useState(starterVideos);
+  const [ playlist, setPlaylist ] = useState([])
   
   const url = 'https://www.googleapis.com/books/v1/volumes?q=title:${mindfulness}&filter=partial&projection=lite'; 
-  var req = new Request(url); 
+  
+    /*
+    var req = new Request(url); 
     fetch(req)
     .then(function(response) {
     console.log(response.json());  
     } );
-     
 
-    /*
     const url = 'http://newsapi.org/v2/everything?' + 
     'q=Mental&Wellbeing' + 
     'from=2021-01-28&' +
@@ -39,6 +40,34 @@ const App = () => {
     } ); 
    */ 
   
+    function addVideo(videoName) {
+      const addedVideo = videos.find(video => {
+        if (videoName === video.videoName) {
+          return true; 
+        }
+        return false; 
+      });
+      setPlaylist((existingVideos)=> [...existingVideos, addedVideo])
+    }
+
+    function removeVideo(videoName) {
+      const removedVideo = videos.find(video => {
+       if(videoName === video.videoName) {
+          return true;
+        }
+        return false; 
+      }); 
+      setPlaylist((existingVideos) => {
+        return existingVideos.filter(video => {
+         if (video.videoName !== removedVideo.videoName) {
+            return true; 
+          }
+          return false; 
+         }); 
+      });
+     
+    } 
+
 
 
   return (
@@ -51,11 +80,11 @@ const App = () => {
            <Footer />
           </>
         )} />
-        <Route exact path="/News" render={() => (
+        <Route exact path="/Playlist" render={() => (
           <>
             <TaglineCard />
-            <News />
-            <Livefeed />
+            <Playlist />
+            <RemoveFunction videos={playlist} removeVideo={removeVideo} />
             <Footer />
           </>
         )} />
@@ -63,7 +92,7 @@ const App = () => {
          <>
            <TaglineCard />
            <VideoPage />
-           {videos.map((video) => <Video video={video} />)}
+           {videos.map((video) => <Video video={video} addVideo={addVideo} />)}
            <Footer />
           </>
         )} />
@@ -80,6 +109,5 @@ const App = () => {
 }
 export default App;
 
-//{data.map((livefeed) => <Livefeed livefeed={livefeed} />)}
 
 

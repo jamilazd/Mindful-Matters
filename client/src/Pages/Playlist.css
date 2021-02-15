@@ -1,0 +1,24 @@
+#playlistBox{
+    height: 20em;  
+    background-image: url("http://localhost:5000/static/stone.png"); 
+    border-bottom: 1px solid rgb (209, 209, 209); 
+    box-shadow: 4px 8px 4px #C1CFCF;  
+}
+
+#playlistH {
+    padding-top: 120px; 
+    font-family: 'Noto Serif', serif;
+    font-size: 60px; 
+    font-weight: bold; 
+    color:#B0896C; 
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#playlistP{
+    padding-top: 30px; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px; 
+}
