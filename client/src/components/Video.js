@@ -14,6 +14,12 @@ const Video = (props) => {
             <p id="description">{description}</p> 
           </div>
         </div>
+        {props.addVideo && (
+          <button onClick={() => props.addVideo(videoName)}>Add Video</button>
+        )}
+        {props.removeVideo && (
+        <button onClick={() => props.removeVideo(videoName)}>Remove Video</button>
+        )}
       </div>
     </div>
   ); 
