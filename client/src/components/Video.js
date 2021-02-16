@@ -14,12 +14,14 @@ const Video = (props) => {
             <p id="description">{description}</p> 
           </div>
         </div>
-        {props.addVideo && (
-          <button onClick={() => props.addVideo(videoName)}>Add Video</button>
-        )}
-        {props.removeVideo && (
-        <button onClick={() => props.removeVideo(videoName)}>Remove Video</button>
-        )}
+        <div className="buttonCollection">
+          {props.addVideo && (
+            <button id="addButton" type="button"  className="btn btn-secondary" onClick={() => props.addVideo(videoName)}>Add Video</button>
+          )}
+          {props.removeVideo && (
+           <button id="removeButton" type="button"  className="btn btn-secondary" onClick={() => props.removeVideo(videoName)}>Remove Video</button>
+          )}
+        </div>
       </div>
     </div>
   ); 

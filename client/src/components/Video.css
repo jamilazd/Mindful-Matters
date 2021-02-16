@@ -49,3 +49,39 @@
     padding-right: 70px;
 
 }
+
+
+.buttonCollection{
+    padding-top: 50px;
+}
+
+
+#addButton{
+    font-size: 16px;
+    color: #fff;
+    background-color: #B0896C;
+    height: 120px; 
+    width: 8em; 
+    position: relative; 
+    right: 150px; 
+    box-shadow: 8px 12px 8px #C1CFCF; 
+    
+}
+#addButton:hover{
+    color: #024C46;
+}
+
+
+#removeButton{
+    color: #fff;
+    background-color: #B0896C;
+    height: 120px; 
+    width: 8em; 
+    position: relative; 
+    right: 150px; 
+    box-shadow: 8px 12px 8px #C1CFCF; 
+}
+
+#removeButton:hover{
+    color: #024C46;
+}
