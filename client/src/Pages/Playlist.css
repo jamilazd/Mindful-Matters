@@ -17,8 +17,11 @@
 }
 
 #playlistP{
-    padding-top: 30px; 
+    padding-top: 80px; 
+    padding-bottom: 80px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px; 
+    font-weight: bold; 
+    font-size: 21px; 
+
 }

@@ -62,6 +62,7 @@
 
 
 #addButton{
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #fff;
     background-color: #B0896C;
@@ -78,6 +79,7 @@
 
 
 #removeButton{
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     background-color: #B0896C;
     height: 120px; 
