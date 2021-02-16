@@ -8,7 +8,7 @@ Once you have your development environment up and running you'll be able to see 
 http://localhost:3000
 ```
 
-## Example App
+## Example App here
 
 In the example we have provided you can see:
 
