@@ -21,7 +21,7 @@ const App = () => {
   
   const url = 'https://www.googleapis.com/books/v1/volumes?q=title:${mindfulness}&filter=partial&projection=lite'; 
   
-    /*
+    /* connect to google books API and News API 
     var req = new Request(url); 
     fetch(req)
     .then(function(response) {
