@@ -38,7 +38,12 @@
     color: #B0896C;
     text-decoration: underline;
     text-decoration-color: #FFC300;
-  
+}
+
+#vidName:visited{
+    color: #B0896C;
+    text-decoration: underline;
+    text-decoration-color: #FFC300;
 }
 
 #description{
