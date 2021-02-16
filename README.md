@@ -29,3 +29,7 @@ To start the client side code, server side and database together (this is the mo
 2. `npm run develop`
 
 Please note that you run `npm install && npm install --prefix client` during your first installation, subsequently you will only need to run `npm run develop`. 
+
+### Project Extensions 
+
+* Fetch data from an external API and render in a React component to create a livefeed page of mental wellbeing news (https://newsapi.org/) 
