@@ -1,7 +1,7 @@
 # Mindful Matters 
 
-This web application was created as a final project on the Black Codher Full-Stack Bootcamp. 
-The purpose of this web application is to introduce users to mindfulness meditation. 
+Pupose of this project was to practice using Node.js in conjunction with React. 
+The app introduces users to Mindfulness Meditation
 
 ![woman meditating](https://img.freepik.com/free-photo/attractive-black-woman-bed-meditating_153437-2932.jpg?size=626&ext=jpg)
 
