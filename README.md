@@ -32,4 +32,5 @@ Please note that you run `npm install && npm install --prefix client` during you
 
 ### Project Extensions 
 
-* Fetch data from an external API and render in a React component to create a livefeed page of mental wellbeing news (https://newsapi.org/) 
+*  Make the layout responsive across different devices
+*  Fetch data from an external API and render in a React component to create a livefeed page of mental wellbeing news (https://newsapi.org/) 
